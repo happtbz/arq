@@ -149,6 +149,45 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "FlashSystem 5300": {
+        Manufacturer: "IBM",
+        Model: "FlashSystem 5300",
+        Slug: "ibm-flashsystem-5300",
+        UHeight: 1,
+        PartNumber: "4662-7H2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 5.76,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Controller 1", Label: "" },
+            { Name: "Controller 2", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SAN24B-6": {
         Manufacturer: "IBM",
         Model: "SAN24B-6",
