@@ -184,6 +184,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "T-bao": DeviceTypesMapt_bao,
     "TESmart": DeviceTypesMaptesmart,
     "TP-Link": DeviceTypesMaptp_link,
+    "Telco Systems": DeviceTypesMaptelco_systems,
     "Teltonika": DeviceTypesMapteltonika,
     "Terramaster": DeviceTypesMapterramaster,
     "Testing": DeviceTypesMaptesting,

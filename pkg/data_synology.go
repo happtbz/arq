@@ -1330,6 +1330,45 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS819": {
+        Manufacturer: "Synology",
+        Model: "RS819",
+        Slug: "synology-rs819",
+        UHeight: 1,
+        PartNumber: "RS819",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 4.34,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 100 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "RS820&#43;": {
         Manufacturer: "Synology",
         Model: "RS820&#43;",
