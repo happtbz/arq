@@ -182,6 +182,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Supermicro": DeviceTypesMapsupermicro,
     "Synology": DeviceTypesMapsynology,
     "T-bao": DeviceTypesMapt_bao,
+    "TESmart": DeviceTypesMaptesmart,
     "TP-Link": DeviceTypesMaptp_link,
     "Teltonika": DeviceTypesMapteltonika,
     "Terramaster": DeviceTypesMapterramaster,

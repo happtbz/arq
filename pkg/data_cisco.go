@@ -25169,11 +25169,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "C9200L-24P-4G",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.71,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -25183,8 +25183,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -25193,6 +25191,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "PS-2", Label: "", Position: "2" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
