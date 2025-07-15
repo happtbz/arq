@@ -119,6 +119,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Motorola": DeviceTypesMapmotorola,
     "Moxa": DeviceTypesMapmoxa,
     "NEC": DeviceTypesMapnec,
+    "NETIO": DeviceTypesMapnetio,
     "NICGIGA": DeviceTypesMapnicgiga,
     "Nabu Casa": DeviceTypesMapnabu_casa,
     "Neousys": DeviceTypesMapneousys,

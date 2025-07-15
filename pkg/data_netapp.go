@@ -2,6 +2,87 @@
 package devices
 
 var DeviceTypesMapnetapp = map[string]*DeviceData{
+    "AFF-C60 Chassis": {
+        Manufacturer: "NetApp",
+        Model: "AFF-C60 Chassis",
+        Slug: "netapp-aff-c60-chassis",
+        UHeight: 2,
+        PartNumber: "AFF-C60A-100-C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 27.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AFF-C60 Controller": {
+        Manufacturer: "NetApp",
+        Model: "AFF-C60 Controller",
+        Slug: "netapp-aff-c60-001",
+        UHeight: 0,
+        PartNumber: "AFF-C60-001",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "IOIOI", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+            { Name: "IOIOI", Label: "", Type: "usb-c", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Karte 1", Label: "", Position: "1" },
+            { Name: "Karte 2", Label: "", Position: "2" },
+            { Name: "Karte 3", Label: "", Position: "3" },
+            { Name: "Karte 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0M", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "DE460C": {
         Manufacturer: "NetApp",
         Model: "DE460C",
@@ -337,6 +418,47 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
             { Name: "e0g", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0h", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "e0m", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "NS224-T-0-24-CF-C": {
+        Manufacturer: "NetApp",
+        Model: "NS224-T-0-24-CF-C",
+        Slug: "netapp-ns224-t-0-24-cf-c",
+        UHeight: 2,
+        PartNumber: "NS224-T-0-24-CF-C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "a-e0a", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "a-e0b", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "b-e0a", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "b-e0b", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
 }

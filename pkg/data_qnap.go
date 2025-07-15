@@ -952,6 +952,48 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-463U-RP": {
+        Manufacturer: "QNAP",
+        Model: "TS-463U-RP",
+        Slug: "qnap-ts-463u-rp",
+        UHeight: 1,
+        PartNumber: "TS-463U-RP",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TS-469L": {
         Manufacturer: "QNAP",
         Model: "TS-469L",
