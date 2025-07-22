@@ -170,6 +170,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Sangoma": DeviceTypesMapsangoma,
     "Schneider Electric": DeviceTypesMapschneider_electric,
     "Schweitzer Engineering Laboratories": DeviceTypesMapschweitzer_engineering_laboratories,
+    "Seagate Systems": DeviceTypesMapseagate_systems,
     "Sedna": DeviceTypesMapsedna,
     "Server Technology": DeviceTypesMapserver_technology,
     "Siemon": DeviceTypesMapsiemon,
