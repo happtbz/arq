@@ -45,6 +45,46 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "EAP245": {
+        Manufacturer: "TP-Link",
+        Model: "EAP245",
+        Slug: "tp-link-eap245",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 13, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless AC", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wireless N", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "EAP683-LR": {
         Manufacturer: "TP-Link",
         Model: "EAP683-LR",
