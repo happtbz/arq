@@ -313,6 +313,47 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DGS-1100-05": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1100-05",
+        Slug: "d-link-dgs-1100-05",
+        UHeight: 1,
+        PartNumber: "DGS-1100-05",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 500,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DGS-1100-05PDV2": {
         Manufacturer: "D-Link",
         Model: "DGS-1100-05PDV2",
