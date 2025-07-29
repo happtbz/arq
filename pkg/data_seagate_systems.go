@@ -12,7 +12,7 @@ var DeviceTypesMapseagate_systems = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 131.5,
         WeightUnit: "",
         IsPowered: false,
@@ -56,9 +56,8 @@ var DeviceTypesMapseagate_systems = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "manufacturer-do-not-use-{module}", Type: "usb-micro-a", Label: "", Poe: false },
-            { Name: "Serial{module}", Type: "usb-micro-a", Label: "", Poe: false },
-            { Name: "eth-{module}", Type: "rj-45", Label: "", Poe: false },
+            { Name: "manufacturer-do-not-use", Type: "usb-micro-a", Label: "", Poe: false },
+            { Name: "serial", Type: "usb-micro-a", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -77,10 +76,11 @@ var DeviceTypesMapseagate_systems = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "SAS {module}0", Label: "", Type: "other", MgmtOnly: false },
-            { Name: "SAS {module}1", Label: "", Type: "other", MgmtOnly: false },
-            { Name: "SAS {module}2", Label: "", Type: "other", MgmtOnly: false },
-            { Name: "SAS {module}3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS 0", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS 1", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS 2", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "SAS 3", Label: "", Type: "other", MgmtOnly: false },
+            { Name: "management", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
 }
