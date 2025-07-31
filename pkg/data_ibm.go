@@ -188,6 +188,97 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SAN Volume Controller 2145-SV2": {
+        Manufacturer: "IBM",
+        Model: "SAN Volume Controller 2145-SV2",
+        Slug: "ibm-san-volume-controller-2145-sv2",
+        UHeight: 2,
+        PartNumber: "2145-SV2",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Adapter 1", Label: "", Position: "Adapter 1" },
+            { Name: "Adapter 2", Label: "", Position: "Adapter 2" },
+            { Name: "Adapter 3", Label: "", Position: "Adapter 3" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet3", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Ethernet4", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
+    "SAN Volume Controller 2145-SV3": {
+        Manufacturer: "IBM",
+        Model: "SAN Volume Controller 2145-SV3",
+        Slug: "ibm-san-volume-controller-2145-sv3",
+        UHeight: 2,
+        PartNumber: "2145-SV3",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Adapter 1", Label: "", Position: "Adapter 1" },
+            { Name: "Adapter 2", Label: "", Position: "Adapter 2" },
+            { Name: "Adapter 3", Label: "", Position: "Adapter 3" },
+            { Name: "Adapter 4", Label: "", Position: "Adapter 4" },
+            { Name: "Adapter 5", Label: "", Position: "Adapter 5" },
+            { Name: "Adapter 6", Label: "", Position: "Adapter 6" },
+            { Name: "Adapter 7", Label: "", Position: "Adapter 7" },
+            { Name: "Adapter 8", Label: "", Position: "Adapter 8" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SAN24B-6": {
         Manufacturer: "IBM",
         Model: "SAN24B-6",

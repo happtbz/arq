@@ -1493,6 +1493,51 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "40GE0/0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
+    "D5V6-256G-NVMe-Ctrl": {
+        Manufacturer: "Huawei",
+        Model: "D5V6-256G-NVMe-Ctrl",
+        Slug: "huawei-d5v6-256g-nvme-ctrl",
+        UHeight: 0,
+        PartNumber: "03050MRN",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOM_0", Label: "", Position: "IOM_0" },
+            { Name: "IOM_1", Label: "", Position: "IOM_1" },
+            { Name: "IOM_2", Label: "", Position: "IOM_2" },
+            { Name: "IOM_3", Label: "", Position: "IOM_3" },
+            { Name: "IOM_4", Label: "", Position: "IOM_4" },
+            { Name: "IOM_5", Label: "", Position: "IOM_5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Maintenance", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "RDMA_Expand_1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "RDMA_Expand_2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+        },
+    },
     "D5V6-512G-NVMe-Ctrl": {
         Manufacturer: "Huawei",
         Model: "D5V6-512G-NVMe-Ctrl",
