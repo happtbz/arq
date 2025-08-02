@@ -1653,7 +1653,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 50,
         WeightUnit: "",
         IsPowered: false,
@@ -1672,10 +1672,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU0", Label: "", Position: "PSU0" },
             { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "A(up)", Label: "", Position: "A" },
-            { Name: "B(down)", Label: "", Position: "B" },
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "Contoller A", Label: "" },
+            { Name: "Contoller B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },

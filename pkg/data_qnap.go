@@ -324,6 +324,45 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TS-233": {
+        Manufacturer: "QNAP",
+        Model: "TS-233",
+        Slug: "qnap-ts-233",
+        UHeight: 0,
+        PartNumber: "TS-233",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.69,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HDD1", Label: "", Position: "HDD1" },
+            { Name: "HDD2", Label: "", Position: "HDD2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "TS-2483XU-RP": {
         Manufacturer: "QNAP",
         Model: "TS-2483XU-RP",
@@ -1035,6 +1074,48 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth2", Label: "3", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth3", Label: "4", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth4", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TS-469 Pro": {
+        Manufacturer: "QNAP",
+        Model: "TS-469 Pro",
+        Slug: "qnap-ts-469-pro",
+        UHeight: 0,
+        PartNumber: "TS-469 Pro",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 43, AllocatedDraw: 25 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HDD1", Label: "", Position: "HDD1" },
+            { Name: "HDD2", Label: "", Position: "HDD2" },
+            { Name: "HDD3", Label: "", Position: "HDD3" },
+            { Name: "HDD4", Label: "", Position: "HDD4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "TS-469L": {

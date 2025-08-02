@@ -23004,12 +23004,12 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         Slug: "arista-dcs-7368",
         UHeight: 4,
         PartNumber: "DCS-7368",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 39,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -23017,10 +23017,6 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c20", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c20", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS3", Label: "", Type: "iec-60320-c20", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS4", Label: "", Type: "iec-60320-c20", MaximumDraw: 2000, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -23038,57 +23034,7 @@ var DeviceTypesMaparista = map[string]*DeviceData{
             { Name: "Slot 7", Label: "Line Card", Position: "7" },
             { Name: "Slot 8", Label: "Line Card", Position: "8" },
             { Name: "Slot 9", Label: "Line Card", Position: "9" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-        },
-    },
-    "DCS-7368X4": {
-        Manufacturer: "Arista",
-        Model: "DCS-7368X4",
-        Slug: "arista-dcs-7368x4",
-        UHeight: 4,
-        PartNumber: "DCS-7368X4",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: true,
-        RearImage: true,
-        SubdeviceRole: "",
-        Weight: 39,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "Linecard Slot 1", Label: "", Position: "L1" },
-            { Name: "Linecard Slot 2", Label: "", Position: "L2" },
-            { Name: "Linecard Slot 3", Label: "", Position: "L3" },
-            { Name: "Linecard Slot 4", Label: "", Position: "L4" },
-            { Name: "Linecard Slot 5", Label: "", Position: "L5" },
-            { Name: "Linecard Slot 6", Label: "", Position: "L6" },
-            { Name: "Linecard Slot 7", Label: "", Position: "L7" },
-            { Name: "Linecard Slot 8", Label: "", Position: "L8" },
-            { Name: "Supervisor Slot", Label: "", Position: "SU1" },
-            { Name: "Switch Card Slot", Label: "", Position: "SW1" },
-            { Name: "Fan Module Slot 1", Label: "", Position: "F1" },
-            { Name: "Fan Module Slot 2", Label: "", Position: "F2" },
-            { Name: "Fan Module Slot 3", Label: "", Position: "F3" },
-            { Name: "Fan Module Slot 4", Label: "", Position: "F4" },
-            { Name: "Fan Module Slot 5", Label: "", Position: "F5" },
+            { Name: "Switchcard Slot", Label: "Switchcard", Position: "SW1" },
             { Name: "PSU Slot 1", Label: "", Position: "P1" },
             { Name: "PSU Slot 2", Label: "", Position: "P2" },
             { Name: "PSU Slot 3", Label: "", Position: "P3" },
@@ -23099,8 +23045,6 @@ var DeviceTypesMaparista = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Management2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DCS-7388X5": {
