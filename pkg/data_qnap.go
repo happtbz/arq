@@ -1653,4 +1653,47 @@ var DeviceTypesMapqnap = map[string]*DeviceData{
             { Name: "eth5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "TVS-EC1580MU-SAS-RP": {
+        Manufacturer: "QNAP",
+        Model: "TVS-EC1580MU-SAS-RP",
+        Slug: "qnap-tvs-ec1580mu-sas-rp",
+        UHeight: 2,
+        PartNumber: "TVS-EC1580MU-SAS-RP",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Adapter 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Adapter 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

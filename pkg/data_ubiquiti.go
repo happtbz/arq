@@ -7862,6 +7862,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "Unifi Switch Pro XG 8 PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi Switch Pro XG 8 PoE",
+        Slug: "ubiquiti-unifi-switch-pro-xg-8-poe",
+        UHeight: 1,
+        PartNumber: "USW-Pro-XG-8-PoE",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Input", Label: "", Type: "dc-terminal", MaximumDraw: 220, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 2 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 3 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 4 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 5 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 6 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 7 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 8 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "airCube-AC": {
         Manufacturer: "Ubiquiti",
         Model: "airCube-AC",

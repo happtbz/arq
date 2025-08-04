@@ -117,6 +117,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "MikroTik": DeviceTypesMapmikrotik,
     "Mimosa Networks": DeviceTypesMapmimosa_networks,
     "Minisforum": DeviceTypesMapminisforum,
+    "MitraStar": DeviceTypesMapmitrastar,
     "Motorola": DeviceTypesMapmotorola,
     "Moxa": DeviceTypesMapmoxa,
     "NEC": DeviceTypesMapnec,
