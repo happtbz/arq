@@ -302,6 +302,49 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "LAN6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
+    "IoT SuperServer SYS-E300-12D-4CN6P": {
+        Manufacturer: "Supermicro",
+        Model: "IoT SuperServer SYS-E300-12D-4CN6P",
+        Slug: "supermicro-superserver-sys-e300-12d-4cn6p",
+        UHeight: 1,
+        PartNumber: "SYS-E300-12D-4CN6P",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "LAN-ice0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "LAN-ice1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "LAN-igb0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN-igb1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN-igb2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN-igb3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "MicroCloud A&#43; Server AS 3015MR-H8TNR": {
         Manufacturer: "Supermicro",
         Model: "MicroCloud A&#43; Server AS 3015MR-H8TNR",
