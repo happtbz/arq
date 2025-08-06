@@ -17869,6 +17869,49 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "MSR1002-4 AC Router": {
+        Manufacturer: "HPE",
+        Model: "MSR1002-4 AC Router",
+        Slug: "hpe-msr1002-4-ac-router",
+        UHeight: 1,
+        PartNumber: "JG875A",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CON/AUX", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Nimble HF40 Controller": {
         Manufacturer: "HPE",
         Model: "Nimble HF40 Controller",
