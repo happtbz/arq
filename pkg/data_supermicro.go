@@ -1163,6 +1163,48 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SuperServer 1028R-WTR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 1028R-WTR",
+        Slug: "supermicro-superserver-1028r-wtr",
+        UHeight: 1,
+        PartNumber: "SYS-1028R-WTR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe-1 LP x16", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe-2 LP x16", Label: "", Position: "PCIe-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 1029U-TR4T": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1029U-TR4T",
