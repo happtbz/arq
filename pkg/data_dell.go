@@ -2707,6 +2707,49 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "PowerEdge R660xs": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R660xs",
+        Slug: "dell-poweredge-r660xs",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "1" },
+            { Name: "PSU-2", Label: "2", Position: "2" },
+            { Name: "NUMA 0 - PCIe slot 1 - LP", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - LP", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1GbE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1GbE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerEdge R6615": {
         Manufacturer: "Dell",
         Model: "PowerEdge R6615",
