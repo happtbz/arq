@@ -922,7 +922,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "Keyboard", Type: "other", Label: "" },
@@ -998,7 +998,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "USB", Type: "usb-a", Label: "" },
@@ -1035,7 +1035,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "DSR", Type: "rj-45", Label: "", Poe: true },
+            { Name: "DSR", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "SUN", Type: "other", Label: "" },
@@ -1072,7 +1072,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "KVM", Type: "rj-45", Label: "", Poe: true },
+            { Name: "KVM", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "con0", Type: "rj-45", Label: "" },
@@ -1110,7 +1110,7 @@ var DeviceTypesMapavocent = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "KVM", Type: "rj-45", Label: "", Poe: true },
+            { Name: "KVM", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "usb0", Type: "usb-a", Label: "" },

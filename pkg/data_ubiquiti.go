@@ -2507,7 +2507,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "PoE out", Label: "", Type: "8p8c", RearPort: "PoE in", RearPortPosition: 1 },
         },
         RearPorts: []RearPort{
-            { Name: "PoE in", Label: "PoE IN", Type: "8p8c", Positions: 1, Poe: true },
+            { Name: "PoE in", Label: "PoE IN", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -3646,7 +3646,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "1", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
         },
         RearPorts: []RearPort{
-            { Name: "1", Label: "", Type: "8p8c", Positions: 1, Poe: true },
+            { Name: "1", Label: "", Type: "8p8c", Positions: 1, Poe: false },
         },
         ModuleBays: []ModuleBay{
         },
@@ -5145,7 +5145,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "nema-5-15p", MaximumDraw: 210, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

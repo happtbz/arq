@@ -530,7 +530,7 @@ var DeviceTypesMapvertiv = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "KVM", Type: "rj-45", Label: "", Poe: true },
+            { Name: "KVM", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
             { Name: "usb0", Type: "usb-a", Label: "" },

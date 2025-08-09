@@ -51616,7 +51616,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "GigabitEthernet1/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "GigabitEthernet1/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "oob", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "oob", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Port-channel1", Label: "", Type: "lag", MgmtOnly: false },
             { Name: "Port-channel2", Label: "", Type: "lag", MgmtOnly: false },
             { Name: "Port-channel3", Label: "", Type: "lag", MgmtOnly: false },
