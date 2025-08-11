@@ -4944,6 +4944,60 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "FortiGate 90E": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 90E",
+        Slug: "fortinet-fg-90e",
+        UHeight: 1,
+        PartNumber: "FG-90E",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.31,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "DC&#43;12V", Type: "dc-terminal", MaximumDraw: 27, AllocatedDraw: 23 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "internal1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "dmz", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ha", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "FortiGate 90G": {
         Manufacturer: "Fortinet",
         Model: "FortiGate 90G",
@@ -4991,6 +5045,60 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "b", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wan1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "wan2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "FortiGate 91E": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate 91E",
+        Slug: "fortinet-fg-91e",
+        UHeight: 1,
+        PartNumber: "FG-91E",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.31,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "DC&#43;12V", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 23 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "internal1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "internal12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "dmz", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ha", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "FortiGate Rugged 60F": {
