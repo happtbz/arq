@@ -232,7 +232,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "power AC", Label: "100-240V; 50/60Hz; 1.0A", Type: "iec-60320-c14", MaximumDraw: 60, AllocatedDraw: 0 },
-            { Name: "power DC", Label: "DC 11-13V, 4.5A", Type: "other", MaximumDraw: 60, AllocatedDraw: 0 },
+            { Name: "power DC", Label: "DC 11-13V, 4.5A", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "usb", Type: "usb-a", Label: "USB", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -510,7 +510,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "power AC", Label: "100-240V; 50/60Hz; 1.0A", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
-            { Name: "power DC", Label: "DC 11-13V, 4.5A", Type: "other", MaximumDraw: 30, AllocatedDraw: 0 },
+            { Name: "power DC", Label: "DC 11-13V, 4.5A", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "usb", Type: "usb-a", Label: "USB", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
@@ -578,7 +578,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "power AC", Label: "100-240V; 50/60Hz; 1.0A", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
-            { Name: "battery DC", Label: "", Type: "other", MaximumDraw: 30, AllocatedDraw: 0 },
+            { Name: "battery DC", Label: "", Type: "dc-terminal", MaximumDraw: 30, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
             { Name: "usb", Type: "usb-a", Label: "USB", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },

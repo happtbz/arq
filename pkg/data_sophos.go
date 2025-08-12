@@ -280,8 +280,8 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC In 1", Label: "", Type: "other", MaximumDraw: 54, AllocatedDraw: 26 },
-            { Name: "DC In 2", Label: "", Type: "other", MaximumDraw: 54, AllocatedDraw: 26 },
+            { Name: "DC In 1", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 26 },
+            { Name: "DC In 2", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 26 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -328,8 +328,8 @@ var DeviceTypesMapsophos = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC In 1", Label: "", Type: "other", MaximumDraw: 28, AllocatedDraw: 22 },
-            { Name: "DC In 2", Label: "", Type: "other", MaximumDraw: 28, AllocatedDraw: 22 },
+            { Name: "DC In 1", Label: "", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 22 },
+            { Name: "DC In 2", Label: "", Type: "dc-terminal", MaximumDraw: 28, AllocatedDraw: 22 },
         },
         PowerOutlets: []PowerOutlet{
         },

@@ -5570,8 +5570,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/21", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "ge-0/0/22", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "ge-0/0/23", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "other", MgmtOnly: false },
-            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "other", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-24P": {
@@ -5635,8 +5635,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "other", MgmtOnly: false },
-            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "other", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-24PX": {
@@ -5700,8 +5700,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "other", MgmtOnly: false },
-            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "other", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-24T": {
@@ -5765,6 +5765,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-48P": {
@@ -5852,8 +5854,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "other", MgmtOnly: false },
-            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "other", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-48PX": {
@@ -5941,8 +5943,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "other", MgmtOnly: false },
-            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "other", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4200-48T": {
@@ -6030,6 +6032,8 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "ge-0/0/45", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ge-0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "vcp-0", Label: "Virtual Chassis Port 0", Type: "juniper-vcp", MgmtOnly: false },
+            { Name: "vcp-1", Label: "Virtual Chassis Port 1", Type: "juniper-vcp", MgmtOnly: false },
         },
     },
     "EX4300-24P": {
@@ -10439,6 +10443,65 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "RE1", Label: "", Position: "1" },
             { Name: "LC0", Label: "", Position: "0" },
             { Name: "LC1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "MX10008": {
+        Manufacturer: "Juniper",
+        Model: "MX10008",
+        Slug: "juniper-mx10008",
+        UHeight: 13,
+        PartNumber: "JNP10008 [MX10008]",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 127,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CB0", Label: "Routing Engine 0", Position: "re0" },
+            { Name: "CB1", Label: "Routing Engine 1", Position: "re1" },
+            { Name: "FPC 0", Label: "FPC 0", Position: "0" },
+            { Name: "FPC 1", Label: "FPC 1", Position: "1" },
+            { Name: "FPC 2", Label: "FPC 2", Position: "2" },
+            { Name: "FPC 3", Label: "FPC 3", Position: "3" },
+            { Name: "FPC 4", Label: "FPC 4", Position: "4" },
+            { Name: "FPC 5", Label: "FPC 5", Position: "5" },
+            { Name: "FPC 6", Label: "FPC 6", Position: "6" },
+            { Name: "FPC 7", Label: "FPC 7", Position: "7" },
+            { Name: "PEM0", Label: "PSU 0", Position: "0" },
+            { Name: "PEM1", Label: "PSU 1", Position: "1" },
+            { Name: "PEM2", Label: "PSU 2", Position: "2" },
+            { Name: "PEM3", Label: "PSU 3", Position: "3" },
+            { Name: "PEM4", Label: "PSU 4", Position: "4" },
+            { Name: "PEM5", Label: "PSU 5", Position: "5" },
+            { Name: "Fan Tray 0", Label: "Fan Tray 0", Position: "FanTray0" },
+            { Name: "Fan Tray 1", Label: "Fan Tray 1", Position: "FanTray1" },
+            { Name: "SFB0", Label: "SFB 0", Position: "SFB0" },
+            { Name: "SFB1", Label: "SFB 1", Position: "SFB1" },
+            { Name: "SFB2", Label: "SFB 2", Position: "SFB2" },
+            { Name: "SFB3", Label: "SFB 3", Position: "SFB3" },
+            { Name: "SFB4", Label: "SFB 4", Position: "SFB4" },
+            { Name: "SFB5", Label: "SFB 5", Position: "SFB5" },
         },
 			  DeviceBays: []DeviceBay{
         },

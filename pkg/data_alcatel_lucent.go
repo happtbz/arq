@@ -2,6 +2,96 @@
 package devices
 
 var DeviceTypesMapalcatel_lucent = map[string]*DeviceData{
+    "OAW-4750": {
+        Manufacturer: "Alcatel-Lucent",
+        Model: "OAW-4750",
+        Slug: "alcatel-lucent-oaw-4750",
+        UHeight: 1,
+        PartNumber: "OAW-4750",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "Expansion Slot", Label: "", Position: "0" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "OAW-4750XM": {
+        Manufacturer: "Alcatel-Lucent",
+        Model: "OAW-4750XM",
+        Slug: "alcatel-lucent-oaw-4750xm",
+        UHeight: 1,
+        PartNumber: "OAW-4750XM",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "Expansion Slot", Label: "", Position: "0" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "OS6450-24": {
         Manufacturer: "Alcatel-Lucent",
         Model: "OS6450-24",

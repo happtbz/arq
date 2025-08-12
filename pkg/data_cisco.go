@@ -30839,8 +30839,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 80, AllocatedDraw: 0 },
-            { Name: "PS-Aux", Label: "", Type: "other", MaximumDraw: 80, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -30871,6 +30869,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "TenGigabitEthernet1/1/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Catalyst C9200CX-8P-2X2G": {

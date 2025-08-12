@@ -5498,7 +5498,7 @@ var DeviceTypesMapextreme_networks = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DCE2", Label: "", Type: "other", MaximumDraw: 47, AllocatedDraw: 0 },
+            { Name: "DCE2", Label: "", Type: "dc-terminal", MaximumDraw: 47, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -6792,7 +6792,7 @@ var DeviceTypesMapextreme_networks = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DCE2", Label: "", Type: "other", MaximumDraw: 57, AllocatedDraw: 0 },
+            { Name: "DCE2", Label: "", Type: "dc-terminal", MaximumDraw: 57, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },

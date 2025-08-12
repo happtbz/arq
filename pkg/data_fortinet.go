@@ -141,7 +141,7 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC-In", Label: "", Type: "other", MaximumDraw: 15, AllocatedDraw: 15 },
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 15 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2316,7 +2316,7 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 194, AllocatedDraw: 106 },
-            { Name: "PS2", Label: "", Type: "other", MaximumDraw: 194, AllocatedDraw: 106 },
+            { Name: "PS2", Label: "", Type: "dc-terminal", MaximumDraw: 194, AllocatedDraw: 106 },
         },
         PowerOutlets: []PowerOutlet{
         },

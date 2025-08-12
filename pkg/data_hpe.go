@@ -13050,6 +13050,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "(BASE-X)gigabitethernet 0/0/3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "Aruba MCR-HW-5K": {
+        Manufacturer: "HPE",
+        Model: "Aruba MCR-HW-5K",
+        Slug: "hpe-aruba-mcr-hw-5k",
+        UHeight: 1,
+        PartNumber: "JY792A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PEM0", Label: "", Position: "0" },
+            { Name: "PEM1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "gigabitethernet 0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "gigabitethernet 0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "Aruba MM-HW-10K": {
         Manufacturer: "HPE",
         Model: "Aruba MM-HW-10K",
@@ -13095,47 +13136,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Manufacturer: "HPE",
         Model: "Aruba MM-HW-1K",
         Slug: "hpe-aruba-mm-hw-1k",
-        UHeight: 1,
-        PartNumber: "",
-        IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PEM0", Label: "", Type: "iec-60320-c14", MaximumDraw: 400, AllocatedDraw: 120 },
-            { Name: "PEM1", Label: "", Type: "iec-60320-c14", MaximumDraw: 400, AllocatedDraw: 120 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "gigabitethernet 0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "gigabitethernet 0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-        },
-    },
-    "Aruba MM-HW-5K": {
-        Manufacturer: "HPE",
-        Model: "Aruba MM-HW-5K",
-        Slug: "hpe-aruba-mm-hw-5k",
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
