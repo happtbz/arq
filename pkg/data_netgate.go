@@ -319,8 +319,8 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 6.05,
         WeightUnit: "",
@@ -331,7 +331,6 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "psu1", Label: "", Type: "iec-60320-c16", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -340,6 +339,8 @@ var DeviceTypesMapnetgate = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

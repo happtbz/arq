@@ -32708,6 +32708,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "FastEthernet1/10", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "IE-2000-8TC-G-B": {
+        Manufacturer: "Cisco",
+        Model: "IE-2000-8TC-G-B",
+        Slug: "cisco-ie-2000-8tc-g-b",
+        UHeight: 3,
+        PartNumber: "IE-2000-8TC-G-B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-A", Label: "", Type: "dc-terminal", MaximumDraw: 50, AllocatedDraw: 15 },
+            { Name: "DC-B", Label: "", Type: "dc-terminal", MaximumDraw: 50, AllocatedDraw: 15 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "FastEthernet1/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IE-3200-8P2S": {
         Manufacturer: "Cisco",
         Model: "IE-3200-8P2S",
@@ -32808,6 +32856,56 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/12", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "IE-4000-4T4P4G-E": {
+        Manufacturer: "Cisco",
+        Model: "IE-4000-4T4P4G-E",
+        Slug: "cisco-ie-4000-4t4p4g-e",
+        UHeight: 3,
+        PartNumber: "IE-4000-4T4P4G-E",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.88,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-A", Label: "", Type: "dc-terminal", MaximumDraw: 50, AllocatedDraw: 35 },
+            { Name: "DC-B", Label: "", Type: "dc-terminal", MaximumDraw: 50, AllocatedDraw: 35 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "FastEthernet1/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet1/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "IE-4000-8GT8GP4G-E": {
         Manufacturer: "Cisco",
         Model: "IE-4000-8GT8GP4G-E",
@@ -32864,6 +32962,72 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet1/18", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/19", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "IE-4010-4S24P": {
+        Manufacturer: "Cisco",
+        Model: "IE-4010-4S24P",
+        Slug: "cisco-ie-4010-4s24p",
+        UHeight: 3,
+        PartNumber: "IE-4010-4S24P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.46,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "dc-terminal", MaximumDraw: 250, AllocatedDraw: 70 },
+            { Name: "PSU2", Label: "", Type: "dc-terminal", MaximumDraw: 250, AllocatedDraw: 70 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/25", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "IR829": {

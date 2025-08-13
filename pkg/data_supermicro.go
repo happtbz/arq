@@ -1846,6 +1846,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SuperServer 6028R-TR": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6028R-TR",
+        Slug: "supermicro-sys-6028r-tr",
+        UHeight: 2,
+        PartNumber: "SYS-6028R-TR",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 31.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+        },
+    },
     "SuperServer 6028TR-HTR": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 6028TR-HTR",
