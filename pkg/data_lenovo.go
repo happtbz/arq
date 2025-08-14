@@ -644,6 +644,44 @@ var DeviceTypesMaplenovo = map[string]*DeviceData{
             { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ThinkSystem SR635": {
+        Manufacturer: "Lenovo",
+        Model: "ThinkSystem SR635",
+        Slug: "lenovo-thinksystem-sr635",
+        UHeight: 1,
+        PartNumber: "7Y98",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "XCC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ThinkSystem SR645": {
         Manufacturer: "Lenovo",
         Model: "ThinkSystem SR645",
