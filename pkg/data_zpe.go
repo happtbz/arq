@@ -158,11 +158,11 @@ var DeviceTypesMapzpe = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "NSR-BASE-DAC",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

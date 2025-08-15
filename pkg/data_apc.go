@@ -5376,6 +5376,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SMT1500RMI1U": {
+        Manufacturer: "APC",
+        Model: "SMT1500RMI1U",
+        Slug: "apc-smt1500rmi1u",
+        UHeight: 1,
+        PartNumber: "SMT1500RMI1U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SMT1500RMI2U": {
         Manufacturer: "APC",
         Model: "SMT1500RMI2U",
