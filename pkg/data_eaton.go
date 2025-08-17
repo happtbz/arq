@@ -744,6 +744,61 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "Network", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PDUMH30HVNET": {
+        Manufacturer: "Eaton",
+        Model: "PDUMH30HVNET",
+        Slug: "eaton-pdumh30hvnet",
+        UHeight: 2,
+        PartNumber: "PDUMH30HVNET",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Config", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Primary", Label: "", Type: "nema-l6-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Rear 1", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 2", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 3", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 4", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 5", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 6", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 7", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 8", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 9", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 10", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 11", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 12", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 13", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 14", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 15", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Rear 16", Type: "iec-60320-c13", Label: "", PowerPort: "Primary", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Net", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "PW103BA1U405": {
         Manufacturer: "Eaton",
         Model: "PW103BA1U405",
