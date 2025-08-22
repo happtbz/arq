@@ -25997,8 +25997,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -26007,6 +26005,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS0", Label: "", Position: "0" },
+            { Name: "PS1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26185,8 +26185,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -26195,6 +26193,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS0", Label: "", Position: "0" },
+            { Name: "PS1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },

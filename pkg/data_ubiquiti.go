@@ -3434,6 +3434,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
+    "Rocket 5AC Lite": {
+        Manufacturer: "Ubiquiti",
+        Model: "Rocket 5AC Lite",
+        Slug: "ubiquiti-r5ac-lite",
+        UHeight: 0,
+        PartNumber: "R5AC-Lite",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 250,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Rocket M2": {
         Manufacturer: "Ubiquiti",
         Model: "Rocket M2",
@@ -7525,6 +7562,50 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "SFP&#43; 50", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "SFP&#43; 51", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "SFP&#43; 52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "UniFi Switch Ultra": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Ultra",
+        Slug: "ubiquiti-unifi-switch-ultra",
+        UHeight: 0,
+        PartNumber: "USW-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 320,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "dc-terminal", MaximumDraw: 210, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8 (PoE IN)", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "UniFi Switch XG 6PoE": {
