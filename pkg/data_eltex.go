@@ -1537,6 +1537,96 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "E1-3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "WEP-30L": {
+        Manufacturer: "Eltex",
+        Model: "WEP-30L",
+        Slug: "eltex-wep-30l",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
+    "WLC-3200": {
+        Manufacturer: "Eltex",
+        Model: "WLC-3200",
+        Slug: "eltex-wlc-3200",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb1", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "Power Supply 1", Position: "1" },
+            { Name: "PS2", Label: "Power Supply 2", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Eth12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "WLC-HW-50": {
         Manufacturer: "Eltex",
         Model: "WLC-HW-50",
