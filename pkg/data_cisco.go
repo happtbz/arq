@@ -54452,11 +54452,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C3560V2-48PS-S",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
