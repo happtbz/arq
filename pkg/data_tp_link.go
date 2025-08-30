@@ -1369,6 +1369,62 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG1218MPE": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG1218MPE",
+        Slug: "tp-link-tl-sg1218mpe",
+        UHeight: 1,
+        PartNumber: "TL-SG1218MPE",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE-20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "TL-SG2210MP": {
         Manufacturer: "TP-Link",
         Model: "TL-SG2210MP",
