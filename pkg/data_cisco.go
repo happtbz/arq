@@ -6519,6 +6519,45 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Console J16", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
+    "CTI-2210-VCR": {
+        Manufacturer: "Cisco",
+        Model: "CTI-2210-VCR",
+        Slug: "cisco-cti-2210-vcr",
+        UHeight: 1,
+        PartNumber: "CTI-2210-VCR-K9",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 110, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Catalyst 1000-16FP-2G-L": {
         Manufacturer: "Cisco",
         Model: "Catalyst 1000-16FP-2G-L",
@@ -35296,6 +35335,49 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ISR2611XM": {
+        Manufacturer: "Cisco",
+        Model: "ISR2611XM",
+        Slug: "cisco-isr2611xm",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.66,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 50, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "NM1", Label: "", Position: "1" },
+            { Name: "WIC1", Label: "", Position: "2" },
+            { Name: "WIC2", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "ISR2651XM": {
         Manufacturer: "Cisco",
         Model: "ISR2651XM",
@@ -36038,6 +36120,45 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/8", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "MCU-4510": {
+        Manufacturer: "Cisco",
+        Model: "MCU-4510",
+        Slug: "cisco-mcu-4510",
+        UHeight: 2,
+        PartNumber: "MCU-4510-K9",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 787, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "MDS 9148S 16G Multilayer Fabric Switch": {

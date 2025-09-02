@@ -49,6 +49,68 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "46M4137": {
+        Manufacturer: "IBM",
+        Model: "46M4137",
+        Slug: "ibm-46m4137",
+        UHeight: 0,
+        PartNumber: "AP8888",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-12", Label: "Serial", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Cord", Label: "", Type: "iec-60309-3p-n-e-6h", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "L1 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L1 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L2 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-01", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-02", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-03", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C13-04", Type: "iec-60320-c13", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-01", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-02", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-03", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "L3 C19-04", Type: "iec-60320-c19", Label: "", PowerPort: "Power Cord", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "Network", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "BladeCenter H": {
         Manufacturer: "IBM",
         Model: "BladeCenter H",

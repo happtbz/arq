@@ -88,6 +88,49 @@ var DeviceTypesMapxfusion = map[string]*DeviceData{
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "2488H-V6": {
+        Manufacturer: "Xfusion",
+        Model: "2488H-V6",
+        Slug: "xfusion-2488h-v6",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "5885H-V7-8drives": {
         Manufacturer: "Xfusion",
         Model: "5885H-V7-8drives",
