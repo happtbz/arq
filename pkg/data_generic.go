@@ -317,7 +317,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -400,7 +400,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -614,7 +614,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.5,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

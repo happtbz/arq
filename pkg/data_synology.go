@@ -77,6 +77,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS1517&#43;": {
+        Manufacturer: "Synology",
+        Model: "DS1517&#43;",
+        Slug: "synology-ds1517-plus",
+        UHeight: 4,
+        PartNumber: "DS1517&#43;",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 43, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DS1522&#43;": {
         Manufacturer: "Synology",
         Model: "DS1522&#43;",
@@ -84,11 +124,11 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
         UHeight: 0,
         PartNumber: "DS1522&#43;",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

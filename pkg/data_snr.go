@@ -818,7 +818,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.45,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

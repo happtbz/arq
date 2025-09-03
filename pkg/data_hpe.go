@@ -25863,6 +25863,51 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "StoreEver MSL6480 Expansion": {
+        Manufacturer: "HPE",
+        Model: "StoreEver MSL6480 Expansion",
+        Slug: "hpe-storeever-msl6480-expansion",
+        UHeight: 6,
+        PartNumber: "QU626A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 43.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "console usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "LTO Drive 1", Label: "", Position: "1" },
+            { Name: "LTO Drive 2", Label: "", Position: "2" },
+            { Name: "LTO Drive 3", Label: "", Position: "3" },
+            { Name: "LTO Drive 4", Label: "", Position: "4" },
+            { Name: "LTO Drive 5", Label: "", Position: "5" },
+            { Name: "LTO Drive 6", Label: "", Position: "6" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "StoreOnce 5100": {
         Manufacturer: "HPE",
         Model: "StoreOnce 5100",
