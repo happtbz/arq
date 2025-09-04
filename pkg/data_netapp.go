@@ -122,6 +122,84 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "DS212C": {
+        Manufacturer: "NetApp",
+        Model: "DS212C",
+        Slug: "netapp-ds212c",
+        UHeight: 2,
+        PartNumber: "DS212C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 22.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "DS224C": {
+        Manufacturer: "NetApp",
+        Model: "DS224C",
+        Slug: "netapp-ds224c",
+        UHeight: 2,
+        PartNumber: "DS224C",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 24.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "E2824": {
         Manufacturer: "NetApp",
         Model: "E2824",

@@ -90,6 +90,84 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "3PAR StoreServ 8000 SFF Enclosure": {
+        Manufacturer: "HPE",
+        Model: "3PAR StoreServ 8000 SFF Enclosure",
+        Slug: "hpe-3par-storeserv-8000-sff-enclosure",
+        UHeight: 2,
+        PartNumber: "H6Z26A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 15.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "3PAR StoreServ 8200 2node Base": {
+        Manufacturer: "HPE",
+        Model: "3PAR StoreServ 8200 2node Base",
+        Slug: "hpe-3par-storeserv-8200-2node-base",
+        UHeight: 2,
+        PartNumber: "K2Q35B",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Ctrl1", Label: "" },
+            { Name: "Ctrl0", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "5406R zl2": {
         Manufacturer: "HPE",
         Model: "5406R zl2",

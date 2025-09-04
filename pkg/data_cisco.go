@@ -943,6 +943,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "APIC-M4": {
+        Manufacturer: "Cisco",
+        Model: "APIC-M4",
+        Slug: "cisco-apic-m4",
+        UHeight: 1,
+        PartNumber: "APIC-M4",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe slot 1", Label: "PCIe-1", Position: "1" },
+            { Name: "PCIe slot 2", Label: "PCIe-2", Position: "2" },
+            { Name: "PCIe slot 3", Label: "PCIe-3", Position: "3" },
+            { Name: "PSU1", Label: "Power Supply 1", Position: "PS1" },
+            { Name: "PSU2", Label: "Power Supply 2", Position: "PS2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mLOM-1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "mLOM-2", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "AS2511RJ": {
         Manufacturer: "Cisco",
         Model: "AS2511RJ",
