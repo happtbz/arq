@@ -6928,6 +6928,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Port 5 (PoE&#43;)", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "UniFi Switch Flex 2.5G 8": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Switch Flex 2.5G 8",
+        Slug: "ubiquiti-usw-flex-2-5g-8",
+        UHeight: 0,
+        PartNumber: "USW-Flex-2-5G-8",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 395,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "5VDC IN", Label: "", Type: "usb-c", MaximumDraw: 14, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 9 (PoE&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Switch Flex 2.5G 8 PoE": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Switch Flex 2.5G 8 PoE",

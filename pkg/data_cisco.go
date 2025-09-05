@@ -4130,6 +4130,47 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Aironet 2802I-Z": {
+        Manufacturer: "Cisco",
+        Model: "Aironet 2802I-Z",
+        Slug: "cisco-air-ap2802i-z-k9",
+        UHeight: 0,
+        PartNumber: "AIR-AP2802I-Z-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Aironet 3502E-A": {
         Manufacturer: "Cisco",
         Model: "Aironet 3502E-A",
@@ -4524,12 +4565,92 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "Aironet 3802I-Z": {
+        Manufacturer: "Cisco",
+        Model: "Aironet 3802I-Z",
+        Slug: "cisco-air-ap3802i-z-k9",
+        UHeight: 0,
+        PartNumber: "AIR-AP3802I-Z-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "Aironet AP1542I": {
         Manufacturer: "Cisco",
         Model: "Aironet AP1542I",
         Slug: "cisco-air-ap1542i-e-k9",
         UHeight: 0,
         PartNumber: "AIR-AP1542I-E-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "Aironet AP1542I-Z": {
+        Manufacturer: "Cisco",
+        Model: "Aironet AP1542I-Z",
+        Slug: "cisco-air-ap1542i-z-k9",
+        UHeight: 0,
+        PartNumber: "AIR-AP1542I-Z-K9",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,
@@ -20692,11 +20813,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C3750X-24T-S",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -25004,6 +25125,46 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
         },
     },
+    "Catalyst 9120AXI-Z": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9120AXI-Z",
+        Slug: "cisco-c9120axi-z",
+        UHeight: 0,
+        PartNumber: "C9120AXI-Z",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+        },
+    },
     "Catalyst 9124AXI-E": {
         Manufacturer: "Cisco",
         Model: "Catalyst 9124AXI-E",
@@ -25170,6 +25331,49 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "C9136I-E",
         IsFullDepth: false,
         Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio3", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "5gbase-t", MgmtOnly: false },
+        },
+    },
+    "Catalyst 9136I-Z": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9136I-Z",
+        Slug: "cisco-c9136i-z",
+        UHeight: 0,
+        PartNumber: "C9136I-Z",
+        IsFullDepth: false,
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
