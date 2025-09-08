@@ -4646,6 +4646,49 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "LAN2", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "UniFi Cloud Gateway Fiber": {
+        Manufacturer: "Ubiquiti",
+        Model: "UniFi Cloud Gateway Fiber",
+        Slug: "ubiquiti-unifi-cloud-gateway-fiber",
+        UHeight: 0,
+        PartNumber: "UCG-Fiber",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 675,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Supply", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "LAN4 (PoE)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "WAN1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "LAN5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "WAN2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi Cloud Gateway Max": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi Cloud Gateway Max",
@@ -7855,6 +7898,42 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         RearImage: false,
         SubdeviceRole: "",
         Weight: 170,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "Unifi G5 Turret Ultra": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi G5 Turret Ultra",
+        Slug: "ubiquiti-unifi-uvc-g5-turret-ultra",
+        UHeight: 0,
+        PartNumber: "UVC-G5-Turret-Ultra",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 175,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
