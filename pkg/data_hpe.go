@@ -25852,6 +25852,47 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "SAS", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "StoreEver MSL2024": {
+        Manufacturer: "HPE",
+        Model: "StoreEver MSL2024",
+        Slug: "hpe-storeever-msl2024",
+        UHeight: 2,
+        PartNumber: "AK379A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "console usb", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 168, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "LTO Drive 1", Label: "", Position: "1" },
+            { Name: "LTO Drive 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "StoreEver MSL3040": {
         Manufacturer: "HPE",
         Model: "StoreEver MSL3040",

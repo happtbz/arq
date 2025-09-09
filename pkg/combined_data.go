@@ -209,6 +209,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "VideoXLink": DeviceTypesMapvideoxlink,
     "WTI": DeviceTypesMapwti,
     "WatchGuard": DeviceTypesMapwatchguard,
+    "Waytex": DeviceTypesMapwaytex,
     "Wellink": DeviceTypesMapwellink,
     "Winegard": DeviceTypesMapwinegard,
     "Wireless-tag Technology": DeviceTypesMapwireless_tag_technology,
