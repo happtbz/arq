@@ -11,6 +11,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "ARRIS": DeviceTypesMaparris,
     "ASUS": DeviceTypesMapasus,
     "AVM": DeviceTypesMapavm,
+    "Accedian": DeviceTypesMapaccedian,
     "ActionTec": DeviceTypesMapactiontec,
     "Adtran": DeviceTypesMapadtran,
     "Albis-Elcon": DeviceTypesMapalbis_elcon,
