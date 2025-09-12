@@ -38527,6 +38527,54 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Port 52", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Meraki MS130-12X": {
+        Manufacturer: "Cisco",
+        Model: "Meraki MS130-12X",
+        Slug: "cisco-meraki-ms130-12x",
+        UHeight: 1,
+        PartNumber: "Meraki MS130-12X",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.06,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Slot 1", Label: "", Type: "dc-terminal", MaximumDraw: 54, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7 (mGig)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 8 (mGig)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 9 (mGig)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 10 (mGig)", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "SFP&#43;1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43;2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "Meraki MS150-24MP-4X": {
         Manufacturer: "Cisco",
         Model: "Meraki MS150-24MP-4X",

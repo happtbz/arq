@@ -462,6 +462,194 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "FE/GE5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "AirEngine5762-12": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine5762-12",
+        Slug: "huawei-airengine5762-12",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 515,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-12V", Label: "", Type: "dc-terminal", MaximumDraw: 11, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE0/PoE_IN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AirEngine5773-21": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine5773-21",
+        Slug: "huawei-airengine5773-21",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.47,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-12V", Label: "", Type: "molex-micro-fit-2x4", MaximumDraw: 13, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "2.5GE/PoE_IN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AirEngine6760R-51": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine6760R-51",
+        Slug: "huawei-airengine6760r-51",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "5GE/PoE_IN", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GE", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43;", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "AirEngine6761-21T": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine6761-21T",
+        Slug: "huawei-airengine6761-21t",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-12V", Label: "", Type: "dc-terminal", MaximumDraw: 21, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "2.5GE/PoE_IN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "GE", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AirEngine6776-56TP": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine6776-56TP",
+        Slug: "huawei-airengine6776-56tp",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 0.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "48V", Label: "", Type: "dc-terminal", MaximumDraw: 22, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "5GE/PoE_IN", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "GE/PoE_OUT", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "CE5855-48T4S2Q-EI": {
         Manufacturer: "Huawei",
         Model: "CE5855-48T4S2Q-EI",
@@ -4080,6 +4268,55 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "10GE1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "10GE1/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "10GE1/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "S5735-L8P4S-A1": {
+        Manufacturer: "Huawei",
+        Model: "S5735-L8P4S-A1",
+        Slug: "huawei-s5735-l8p4s-a1",
+        UHeight: 1,
+        PartNumber: "98011295",
+        IsFullDepth: false,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 163, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/11", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/12", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "S5735-L8T4X-A1": {
