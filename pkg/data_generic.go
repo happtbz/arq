@@ -2005,6 +2005,50 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Power Strip 8 Outlets Type N": {
+        Manufacturer: "Generic",
+        Model: "Power Strip 8 Outlets Type N",
+        Slug: "generic-power-strip-8-outlets-type-n",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "ita-n", Label: "", PowerPort: "Power 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SC-12-port-duplex Fiber Patch Panel Rear Splice": {
         Manufacturer: "Generic",
         Model: "SC-12-port-duplex Fiber Patch Panel Rear Splice",

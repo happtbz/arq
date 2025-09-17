@@ -135,6 +135,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Netgear": DeviceTypesMapnetgear,
     "Netonix": DeviceTypesMapnetonix,
     "Nexconec": DeviceTypesMapnexconec,
+    "Niagara": DeviceTypesMapniagara,
     "Nokia": DeviceTypesMapnokia,
     "Nozomi Networks": DeviceTypesMapnozomi_networks,
     "Nvidia": DeviceTypesMapnvidia,

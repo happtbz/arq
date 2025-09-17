@@ -574,7 +574,7 @@ var DeviceTypesMapruckus = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "909-0XXX-ZD00",
         IsFullDepth: true,
-        Airflow: "left-to-right",
+        Airflow: "side-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
