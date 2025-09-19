@@ -2,6 +2,67 @@
 package devices
 
 var DeviceTypesMap3com = map[string]*DeviceData{
+    "3300XM": {
+        Manufacturer: "3com",
+        Model: "3300XM",
+        Slug: "3com-3300xm",
+        UHeight: 1,
+        PartNumber: "3C16985B",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.46,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 75, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "4200G 12 port": {
         Manufacturer: "3Com",
         Model: "4200G 12 port",
@@ -498,6 +559,69 @@ var DeviceTypesMap3com = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GigabitEthernet1/0/28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "Vlan-interface1", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
+    "4400-24-port": {
+        Manufacturer: "3com",
+        Model: "4400-24-port",
+        Slug: "3com-4400-24-port",
+        UHeight: 1,
+        PartNumber: "3C17203",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot1", Label: "", Position: "S1" },
+            { Name: "Slot2", Label: "", Position: "S2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
 }

@@ -54,7 +54,7 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         Model: "46M4137",
         Slug: "ibm-46m4137",
         UHeight: 0,
-        PartNumber: "AP8888",
+        PartNumber: "46M4137",
         IsFullDepth: false,
         Airflow: "passive",
         FrontImage: false,

@@ -142,6 +142,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "ONLINE USV-Systeme": DeviceTypesMaponline_usv_systeme,
     "Olencom": DeviceTypesMapolencom,
     "Opengear": DeviceTypesMapopengear,
+    "Osnovo": DeviceTypesMaposnovo,
     "Overland-Tandberg": DeviceTypesMapoverland_tandberg,
     "PC Engines": DeviceTypesMappc_engines,
     "PLANET": DeviceTypesMapplanet,
