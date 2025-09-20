@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMap3com = map[string]*DeviceData{
     "3300XM": {
-        Manufacturer: "3com",
+        Manufacturer: "3Com",
         Model: "3300XM",
         Slug: "3com-3300xm",
         UHeight: 1,
@@ -562,7 +562,7 @@ var DeviceTypesMap3com = map[string]*DeviceData{
         },
     },
     "4400-24-port": {
-        Manufacturer: "3com",
+        Manufacturer: "3Com",
         Model: "4400-24-port",
         Slug: "3com-4400-24-port",
         UHeight: 1,
