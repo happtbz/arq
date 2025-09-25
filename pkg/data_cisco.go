@@ -403,10 +403,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "8202-32FH-M",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 22.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
