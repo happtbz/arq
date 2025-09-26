@@ -24595,6 +24595,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "Catalyst 8300-2N2S-6T": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 8300-2N2S-6T",
+        Slug: "cisco-c8300-2n2s-6t",
+        UHeight: 2,
+        PartNumber: "C8300-2N2S-6T",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "SM 1", Label: "", Position: "1" },
+            { Name: "SM 2", Label: "", Position: "2" },
+            { Name: "NIM 1", Label: "", Position: "1" },
+            { Name: "NIM 2", Label: "", Position: "2" },
+            { Name: "PIM 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Catalyst 8500-12X": {
         Manufacturer: "Cisco",
         Model: "Catalyst 8500-12X",
@@ -53526,6 +53575,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "UCSC-C240-M4L": {
+        Manufacturer: "Cisco",
+        Model: "UCSC-C240-M4L",
+        Slug: "cisco-ucsc-c240-m4l",
+        UHeight: 2,
+        PartNumber: "UCSC-C240-M4L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 17.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "0" },
+            { Name: "PSU2", Label: "", Position: "1" },
+            { Name: "RAID-Controller", Label: "", Position: "0" },
+            { Name: "mLOM", Label: "", Position: "0" },
+            { Name: "PCI-Slot1", Label: "", Position: "1" },
+            { Name: "PCI-Slot2", Label: "", Position: "2" },
+            { Name: "PCI-Slot3", Label: "", Position: "3" },
+            { Name: "PCI-Slot4", Label: "", Position: "4" },
+            { Name: "PCI-Slot5", Label: "", Position: "5" },
+            { Name: "PCI-Slot6", Label: "", Position: "6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "CIMC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "VG202XM": {

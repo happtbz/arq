@@ -73,6 +73,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "EnGenius": DeviceTypesMapengenius,
     "Ericsson": DeviceTypesMapericsson,
     "ExaGrid": DeviceTypesMapexagrid,
+    "Exegate": DeviceTypesMapexegate,
     "Extreme Networks": DeviceTypesMapextreme_networks,
     "F5": DeviceTypesMapf5,
     "FS": DeviceTypesMapfs,
