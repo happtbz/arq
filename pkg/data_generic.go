@@ -3213,7 +3213,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3232,6 +3232,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3248,7 +3250,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3267,6 +3269,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
@@ -3283,7 +3287,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: false,
         RearImage: false,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 0,
         WeightUnit: "",
         IsPowered: false,
@@ -3302,6 +3306,8 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
