@@ -514,6 +514,53 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "eth18", Label: "18", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG19200": {
+        Manufacturer: "Check Point",
+        Model: "SG19200",
+        Slug: "check-point-sg19200",
+        UHeight: 2,
+        PartNumber: "CPAP-SG19200-PLUS-SNBT",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 36.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+            { Name: "Interface Card 1", Label: "", Position: "1" },
+            { Name: "Interface Card 2", Label: "", Position: "2" },
+            { Name: "Interface Card 3", Label: "", Position: "3" },
+            { Name: "Interface Card 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt1", Label: "MGMT1", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "Mgmt2", Label: "MGMT2", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "Sync1", Label: "SYNC1", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Sync2", Label: "SYNC2", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SG2200": {
         Manufacturer: "Check Point",
         Model: "SG2200",

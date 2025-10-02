@@ -27371,7 +27371,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.27,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -33453,6 +33453,49 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Wlan-GigabitEthernet0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "cellular0", Label: "", Type: "lte", MgmtOnly: false },
             { Name: "cellular1", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "ISDN-GW-3241": {
+        Manufacturer: "Cisco",
+        Model: "ISDN-GW-3241",
+        Slug: "cisco-isdn-gw-3241",
+        UHeight: 1,
+        PartNumber: "ISDN-GW-3241",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 110, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet_A", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet_B", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "PRI1", Label: "", Type: "e1", MgmtOnly: false },
+            { Name: "PRI2", Label: "", Type: "e1", MgmtOnly: false },
+            { Name: "PRI3", Label: "", Type: "e1", MgmtOnly: false },
+            { Name: "PRI4", Label: "", Type: "e1", MgmtOnly: false },
         },
     },
     "ISR 100X-4G": {

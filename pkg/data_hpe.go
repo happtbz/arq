@@ -11160,6 +11160,48 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "Aruba AP-518": {
+        Manufacturer: "HPE",
+        Model: "Aruba AP-518",
+        Slug: "hpe-aruba-ap-518",
+        UHeight: 0,
+        PartNumber: "AP-518",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "E0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "E1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2.4GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "5GHz WiFi", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Bluetooth", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+            { Name: "Zigbee", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "Aruba AP-535": {
         Manufacturer: "HPE",
         Model: "Aruba AP-535",
@@ -26244,6 +26286,49 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "StoreOnce 3660": {
+        Manufacturer: "HPE",
+        Model: "StoreOnce 3660",
+        Slug: "hpe-storeonce-3660",
+        UHeight: 2,
+        PartNumber: "R6U02A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "OCP3", Label: "", Position: "OCP3" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "StoreOnce 5100": {

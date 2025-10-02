@@ -2,6 +2,116 @@
 package devices
 
 var DeviceTypesMapsnr = map[string]*DeviceData{
+    "PDU-9S-C14-2-MS10L1": {
+        Manufacturer: "SNR",
+        Model: "PDU-9S-C14-2-MS10L1",
+        Slug: "snr-pdu-9s-c14-ms10l1",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "S2982G-24T-POE": {
+        Manufacturer: "SNR",
+        Model: "S2982G-24T-POE",
+        Slug: "snr-s2982g-24t-poe",
+        UHeight: 1,
+        PartNumber: "S2982G-24T-POE",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power AC", Label: "", Type: "iec-60320-c14", MaximumDraw: 210, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/0/1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/9", Label: "9", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/10", Label: "10", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/11", Label: "11", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/12", Label: "12", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/13", Label: "13", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/14", Label: "14", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/15", Label: "15", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/16", Label: "16", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/17", Label: "17", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/18", Label: "18", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/19", Label: "19", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/20", Label: "20", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/21", Label: "21", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/22", Label: "22", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/23", Label: "23", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/24", Label: "24", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/25", Label: "25", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/0/26", Label: "26", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/0/27", Label: "27", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/0/28", Label: "28", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "S2989G-48TX-POE": {
         Manufacturer: "SNR",
         Model: "S2989G-48TX-POE",
@@ -914,11 +1024,11 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "SNR-PDU-08A-W2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.68,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -958,11 +1068,11 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "SNR-PDU-08S-W2",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1049,6 +1159,81 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "SNR-PDU-A-30A06B-T32L3": {
+        Manufacturer: "SNR",
+        Model: "SNR-PDU-A-30A06B-T32L3",
+        Slug: "snr-pdu-a-30a06b-t32l3",
+        UHeight: 0,
+        PartNumber: "SNR-PDU-A-30A06B-T32L3",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CAN Out", Type: "rj-45", Label: "Out", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "CAN In", Type: "rj-45", Label: "In" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "3Phase 32A terminal", Type: "hardwired", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 13", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 14", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 15", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 16", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 17", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 18", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 19", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 20", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 21", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 22", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 23", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 24", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "B", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 25", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 26", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 27", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 28", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 29", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 30", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 31", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 32", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 33", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 34", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 35", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 36", Type: "iec-60320-c19", Label: "", PowerPort: "Power Port 1", FeedLeg: "C", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "1000base-tx", MgmtOnly: true },
         },
     },
     "SNR-PDU-C-21AL21ABL-32L1": {
