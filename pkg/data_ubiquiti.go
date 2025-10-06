@@ -6821,7 +6821,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
+            { Name: "Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 36, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -8179,6 +8179,47 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Port 8 (PoE&#43;&#43;)", Label: "", Type: "10gbase-t", MgmtOnly: false },
             { Name: "SFP&#43; 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "SFP&#43; 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Unifi WAN Switch RJ45": {
+        Manufacturer: "Ubiquiti",
+        Model: "Unifi WAN Switch RJ45",
+        Slug: "ubiquiti-unifi-wan-switch-rj45",
+        UHeight: 1,
+        PartNumber: "USW-WAN-RJ45",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Input2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port2", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "Port3", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
     "airCube-AC": {
