@@ -2,6 +2,53 @@
 package devices
 
 var DeviceTypesMapeaton = map[string]*DeviceData{
+    "5PX1500iRT": {
+        Manufacturer: "Eaton",
+        Model: "5PX1500iRT",
+        Slug: "eaton-5px1500irt",
+        UHeight: 2,
+        PartNumber: "5PX1500iRT",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 27.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "RS232", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 1500, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 - Output 1", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 2", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 3", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 4", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 1", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 2", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 3", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 4", Type: "iec-60320-c13", Label: "", PowerPort: "Input Power", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Communication card slot", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "5PX2200IRT": {
         Manufacturer: "Eaton",
         Model: "5PX2200IRT",
@@ -188,6 +235,53 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
             { Name: "Network-M2 (optional card)", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "9PX 1000i RT 2U": {
+        Manufacturer: "Eaton",
+        Model: "9PX 1000i RT 2U",
+        Slug: "eaton-9px-1000i-rt-2u",
+        UHeight: 2,
+        PartNumber: "9PX1000IRT2U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "RS232", Poe: false },
+            { Name: "USB Console", Type: "usb-b", Label: "USB", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Mains Utility", Label: "Input 16A", Type: "iec-60320-c14", MaximumDraw: 3000, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 - Output 1", Type: "iec-60320-c19", Label: "Output", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 1", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 1", Type: "iec-60320-c13", Label: "Output", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 3", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 4", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Communication card slot", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "9PX 3000i RT 2U": {
         Manufacturer: "Eaton",
         Model: "9PX 3000i RT 2U",
@@ -240,6 +334,58 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Battery connector", Label: "72V DC 40A", Type: "other", MgmtOnly: false },
             { Name: "Battery detection", Label: "Batt detection", Type: "other", MgmtOnly: false },
+        },
+    },
+    "9PX3000iRT3U": {
+        Manufacturer: "Eaton",
+        Model: "9PX3000iRT3U",
+        Slug: "eaton-9px3000irt3u",
+        UHeight: 3,
+        PartNumber: "9PX3000iRT3U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "RS232", Poe: false },
+            { Name: "USB Console", Type: "usb-b", Label: "USB", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Mains Utility", Label: "Input 16A", Type: "iec-60320-c20", MaximumDraw: 3000, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 - Output 1", Type: "iec-60320-c19", Label: "Output", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 - Output 3", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 1", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 1", Type: "iec-60320-c19", Label: "Output", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 2", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 3", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 4", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Primary Group - Output 5", Type: "iec-60320-c13", Label: "Output 10A", PowerPort: "Mains Utility", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Communication card slot", Label: "", Position: "1" },
+            { Name: "Environmental Sensor 1", Label: "", Position: "1" },
+            { Name: "Environmental Sensor 2", Label: "", Position: "2" },
+            { Name: "Environmental Sensor 3", Label: "", Position: "3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "9PX5KIRTN": {

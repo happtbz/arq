@@ -451,6 +451,52 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "eth16", Label: "16", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG16000": {
+        Manufacturer: "Check Point",
+        Model: "SG16000",
+        Slug: "check-point-sg16000",
+        UHeight: 2,
+        PartNumber: "CPAP-SG16000-PLUS-SNBT",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "ttyS1", Type: "usb-c", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+            { Name: "Line card 1", Label: "", Position: "1" },
+            { Name: "Line card 2", Label: "", Position: "2" },
+            { Name: "Line card 3", Label: "", Position: "3" },
+            { Name: "Line card 4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Mgmt", Label: "MGMT", Type: "1000base-t", MgmtOnly: true },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
+            { Name: "sync", Label: "SYNC", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG1800": {
         Manufacturer: "Check Point",
         Model: "SG1800",

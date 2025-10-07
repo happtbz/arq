@@ -2,6 +2,48 @@
 package devices
 
 var DeviceTypesMapcisco = map[string]*DeviceData{
+    "1751-V": {
+        Manufacturer: "Cisco",
+        Model: "1751-V",
+        Slug: "cisco-1751-v",
+        UHeight: 3,
+        PartNumber: "1751-V",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External-PSU", Label: "", Type: "dc-terminal", MaximumDraw: 160, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "VIC-WIC0", Label: "", Position: "0" },
+            { Name: "VIC-WIC1", Label: "", Position: "1" },
+            { Name: "VIC2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "2951 ISR": {
         Manufacturer: "Cisco",
         Model: "2951 ISR",

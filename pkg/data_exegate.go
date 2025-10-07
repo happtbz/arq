@@ -144,4 +144,63 @@ var DeviceTypesMapexegate = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "EPPW-12-8P8C-C5e-FR": {
+        Manufacturer: "Exegate",
+        Model: "EPPW-12-8P8C-C5e-FR",
+        Slug: "exegate-eppw-12-8p8c-c5e-fr",
+        UHeight: 1,
+        PartNumber: "EX256754RUS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 288,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "1", Label: "1", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
+            { Name: "2", Label: "2", Type: "8p8c", RearPort: "2", RearPortPosition: 2 },
+            { Name: "3", Label: "3", Type: "8p8c", RearPort: "3", RearPortPosition: 3 },
+            { Name: "4", Label: "4", Type: "8p8c", RearPort: "4", RearPortPosition: 4 },
+            { Name: "5", Label: "5", Type: "8p8c", RearPort: "5", RearPortPosition: 5 },
+            { Name: "6", Label: "6", Type: "8p8c", RearPort: "6", RearPortPosition: 6 },
+            { Name: "7", Label: "7", Type: "8p8c", RearPort: "7", RearPortPosition: 7 },
+            { Name: "8", Label: "8", Type: "8p8c", RearPort: "8", RearPortPosition: 8 },
+            { Name: "9", Label: "9", Type: "8p8c", RearPort: "9", RearPortPosition: 9 },
+            { Name: "10", Label: "10", Type: "8p8c", RearPort: "10", RearPortPosition: 10 },
+            { Name: "11", Label: "11", Type: "8p8c", RearPort: "11", RearPortPosition: 11 },
+            { Name: "12", Label: "12", Type: "8p8c", RearPort: "12", RearPortPosition: 12 },
+        },
+        RearPorts: []RearPort{
+            { Name: "1", Label: "1", Type: "110-punch", Positions: 1, Poe: false },
+            { Name: "2", Label: "2", Type: "110-punch", Positions: 2, Poe: false },
+            { Name: "3", Label: "3", Type: "110-punch", Positions: 3, Poe: false },
+            { Name: "4", Label: "4", Type: "110-punch", Positions: 4, Poe: false },
+            { Name: "5", Label: "5", Type: "110-punch", Positions: 5, Poe: false },
+            { Name: "6", Label: "6", Type: "110-punch", Positions: 6, Poe: false },
+            { Name: "7", Label: "7", Type: "110-punch", Positions: 7, Poe: false },
+            { Name: "8", Label: "8", Type: "110-punch", Positions: 8, Poe: false },
+            { Name: "9", Label: "9", Type: "110-punch", Positions: 9, Poe: false },
+            { Name: "10", Label: "10", Type: "110-punch", Positions: 10, Poe: false },
+            { Name: "11", Label: "11", Type: "110-punch", Positions: 11, Poe: false },
+            { Name: "12", Label: "12", Type: "110-punch", Positions: 12, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }

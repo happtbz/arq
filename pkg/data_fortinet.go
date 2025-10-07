@@ -2,6 +2,130 @@
 package devices
 
 var DeviceTypesMapfortinet = map[string]*DeviceData{
+    "FAC-200E": {
+        Manufacturer: "Fortinet",
+        Model: "FAC-200E",
+        Slug: "fortinet-fac-200e",
+        UHeight: 1,
+        PartNumber: "FAC-200E",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "FG-240D": {
+        Manufacturer: "Fortinet",
+        Model: "FG-240D",
+        Slug: "fortinet-fg-240d",
+        UHeight: 1,
+        PartNumber: "FG-240D",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 200, AllocatedDraw: 0 },
+            { Name: "PSU2", Label: "", Type: "dc-terminal", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitWAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitWAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet25", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet26", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet27", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet28", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet29", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet30", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet31", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet32", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet33", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet34", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet35", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet36", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet37", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet38", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet39", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet40", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GbESfpDMZInerface1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GbESfpDMZInerface2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "FortiAP 221E": {
         Manufacturer: "Fortinet",
         Model: "FortiAP 221E",
