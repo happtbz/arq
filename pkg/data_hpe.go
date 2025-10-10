@@ -16975,6 +16975,56 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Ten-GigabitEthernet1/0/30", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "HPE Apollo R4200 Chassis": {
+        Manufacturer: "HPE",
+        Model: "HPE Apollo R4200 Chassis",
+        Slug: "hpe-apollo-r4200-chassis",
+        UHeight: 2,
+        PartNumber: "808028-b21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "HDDBox1", Label: "Node 1", Position: "HDDBox1" },
+            { Name: "HDDBox2", Label: "Node 2", Position: "HDDBox2" },
+            { Name: "HDDBox3", Label: "Node 3", Position: "HDDBox3" },
+            { Name: "HDDBox4", Label: "Node 4", Position: "HDDBox4" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "HPE D2700 Disk Enclosure": {
         Manufacturer: "HPE",
         Model: "HPE D2700 Disk Enclosure",
@@ -25966,6 +26016,55 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "ProLiant XL420 Gen9": {
+        Manufacturer: "HPE",
+        Model: "ProLiant XL420 Gen9",
+        Slug: "hpe-proliant-xl420-gen9",
+        UHeight: 2,
+        PartNumber: "c04616495",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "", Position: "PCIe9" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "SN3600B": {

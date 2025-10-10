@@ -12610,4 +12610,49 @@ var DeviceTypesMapextreme_networks = map[string]*DeviceData{
             { Name: "Mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "nx5500-6t": {
+        Manufacturer: "Extreme Networks",
+        Model: "nx5500-6t",
+        Slug: "extreme-networks-nx5500-6t",
+        UHeight: 1,
+        PartNumber: "nx5500-6t",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 4.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console_RJ45", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console_USB_1", Type: "usb-micro-b", Label: "", Poe: false },
+            { Name: "Console_USB_2", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
 }

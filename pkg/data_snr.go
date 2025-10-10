@@ -1105,6 +1105,51 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SNR-PDU-09S-W2": {
+        Manufacturer: "SNR",
+        Model: "SNR-PDU-09S-W2",
+        Slug: "snr-pdu-09s-w2",
+        UHeight: 1,
+        PartNumber: "SNR-PDU-09S-W2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "ita-e", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "ita-f", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "SNR-PDU-20S-16L1": {
         Manufacturer: "SNR",
         Model: "SNR-PDU-20S-16L1",

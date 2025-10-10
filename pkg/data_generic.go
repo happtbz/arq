@@ -2560,6 +2560,65 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "ST-12-port Fiber Patch Panel": {
+        Manufacturer: "Generic",
+        Model: "ST-12-port Fiber Patch Panel",
+        Slug: "generic-st-12-port-fiber-patch-panel",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "FP_1", Label: "", Type: "st", RearPort: "RP_1", RearPortPosition: 0 },
+            { Name: "FP_2", Label: "", Type: "st", RearPort: "RP_2", RearPortPosition: 0 },
+            { Name: "FP_3", Label: "", Type: "st", RearPort: "RP_3", RearPortPosition: 0 },
+            { Name: "FP_4", Label: "", Type: "st", RearPort: "RP_4", RearPortPosition: 0 },
+            { Name: "FP_5", Label: "", Type: "st", RearPort: "RP_5", RearPortPosition: 0 },
+            { Name: "FP_6", Label: "", Type: "st", RearPort: "RP_6", RearPortPosition: 0 },
+            { Name: "FP_7", Label: "", Type: "st", RearPort: "RP_7", RearPortPosition: 0 },
+            { Name: "FP_8", Label: "", Type: "st", RearPort: "RP_8", RearPortPosition: 0 },
+            { Name: "FP_9", Label: "", Type: "st", RearPort: "RP_9", RearPortPosition: 0 },
+            { Name: "FP_10", Label: "", Type: "st", RearPort: "RP_10", RearPortPosition: 0 },
+            { Name: "FP_11", Label: "", Type: "st", RearPort: "RP_11", RearPortPosition: 0 },
+            { Name: "FP_12", Label: "", Type: "st", RearPort: "RP_12", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "RP_1", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_2", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_3", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_4", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_5", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_6", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_7", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_8", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_9", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_10", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_11", Label: "", Type: "st", Positions: 0, Poe: false },
+            { Name: "RP_12", Label: "", Type: "st", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "ST-16-port Fiber Patch Panel Rear Splice": {
         Manufacturer: "Generic",
         Model: "ST-16-port Fiber Patch Panel Rear Splice",

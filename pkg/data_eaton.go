@@ -602,6 +602,55 @@ var DeviceTypesMapeaton = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "EATS16": {
+        Manufacturer: "Eaton",
+        Model: "EATS16",
+        Slug: "eaton-eats16",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "RS232", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Sensor", Type: "rj-45", Label: "RS232" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source A", Label: "Input Source 1", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Source B", Label: "Input Source 2", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Output 1", Type: "iec-60320-c13", Label: "Output 1-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 2", Type: "iec-60320-c13", Label: "Output 2-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 3", Type: "iec-60320-c13", Label: "Output 3-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 4", Type: "iec-60320-c13", Label: "Output 4-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 5", Type: "iec-60320-c13", Label: "Output 5-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 6", Type: "iec-60320-c13", Label: "Output 6-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 7", Type: "iec-60320-c13", Label: "Output 7-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 8", Type: "iec-60320-c13", Label: "Output 8-10A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Output 9", Type: "iec-60320-c19", Label: "Output 9-16A", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "SNMP and HTTP access", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "EMA107-10": {
         Manufacturer: "Eaton",
         Model: "EMA107-10",
