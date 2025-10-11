@@ -2,6 +2,66 @@
 package devices
 
 var DeviceTypesMapraritan = map[string]*DeviceData{
+    "DKX3-116": {
+        Manufacturer: "Raritan",
+        Model: "DKX3-116",
+        Slug: "raritan-dkx3-116",
+        UHeight: 1,
+        PartNumber: "DKX3-116",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "DVI-D", Type: "other", Label: "", Poe: false },
+            { Name: "MODEM", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB1", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB2", Type: "usb-a", Label: "", Poe: false },
+            { Name: "USB3", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "Dominion_KX3_Port1", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port2", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port3", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port4", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port5", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port6", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port7", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port8", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port9", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port10", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port11", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port12", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port13", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port14", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port15", Type: "rj-45", Label: "" },
+            { Name: "Dominion_KX3_Port16", Type: "rj-45", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PowerIn1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PowerIn2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DSX2-16": {
         Manufacturer: "Raritan",
         Model: "DSX2-16",
@@ -1127,6 +1187,48 @@ var DeviceTypesMapraritan = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Eth1", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Eth2", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "T1700G2-LED": {
+        Manufacturer: "Raritan",
+        Model: "T1700G2-LED",
+        Slug: "raritan-t1700g2-led",
+        UHeight: 1,
+        PartNumber: "T1700G2-LED",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 12,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+            { Name: "DP", Type: "other", Label: "" },
+            { Name: "DVI-I", Type: "other", Label: "" },
+            { Name: "HDMI", Type: "other", Label: "" },
+            { Name: "USB1", Type: "usb-a", Label: "" },
+            { Name: "USB2", Type: "usb-a", Label: "" },
+            { Name: "USB3", Type: "usb-b", Label: "" },
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PowerIn1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
 }

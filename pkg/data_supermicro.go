@@ -606,6 +606,43 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "Motherboard X8STi": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X8STi",
+        Slug: "supermicro-mbd-x8sti",
+        UHeight: 0,
+        PartNumber: "MBD-X8STi",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SSE-G3648B": {
         Manufacturer: "Supermicro",
         Model: "SSE-G3648B",
