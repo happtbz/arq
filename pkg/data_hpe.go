@@ -24958,11 +24958,11 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 21,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -24971,8 +24971,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -24981,6 +24979,12 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26064,6 +26068,93 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant-DL120-Gen7": {
+        Manufacturer: "HPE",
+        Model: "ProLiant-DL120-Gen7",
+        Slug: "hpe-proliant-dl120-gen7",
+        UHeight: 1,
+        PartNumber: "628690-421",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 26.23,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 400, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant-DL320-Gen6": {
+        Manufacturer: "HPE",
+        Model: "ProLiant-DL320-Gen6",
+        Slug: "hpe-proliant-dl320-gen6",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 16,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },

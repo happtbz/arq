@@ -1201,6 +1201,53 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SuperChassis-CSE-846E16-R1200B": {
+        Manufacturer: "Supermicro",
+        Model: "SuperChassis-CSE-846E16-R1200B",
+        Slug: "supermicro-superchassis-cse-846e16-r1200b",
+        UHeight: 4,
+        PartNumber: "CSE-846E16-R1200B",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU 1" },
+            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "PCI-E 4", Label: "", Position: "4" },
+            { Name: "PCI-E 5", Label: "", Position: "5" },
+            { Name: "PCI-E 6", Label: "", Position: "6" },
+            { Name: "PCI-E 7", Label: "", Position: "7" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SuperServer 1018R-WC0R": {
         Manufacturer: "Supermicro",
         Model: "SuperServer 1018R-WC0R",

@@ -5225,6 +5225,52 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "wan2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "FortiGate Module 7620F": {
+        Manufacturer: "Fortinet",
+        Model: "FortiGate Module 7620F",
+        Slug: "fortinet-fpm-7620f",
+        UHeight: 2,
+        PartNumber: "FPM-7620F",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 7.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "port1", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
     "FortiGate Rugged 60F": {
         Manufacturer: "Fortinet",
         Model: "FortiGate Rugged 60F",
@@ -7730,6 +7776,68 @@ var DeviceTypesMapfortinet = map[string]*DeviceData{
             { Name: "port14", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port15", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "port16", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "Fortinet Interface Module": {
+        Manufacturer: "Fortinet",
+        Model: "Fortinet Interface Module",
+        Slug: "fortinet-fim-7941f",
+        UHeight: 2,
+        PartNumber: "FIM-7941F",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 11.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "mgmt1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "port1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port3", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port4", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port5", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port6", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port7", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port8", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port9", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port10", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port11", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port12", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port13", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port14", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port15", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port16", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port17", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port18", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "port19", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
+            { Name: "port20", Label: "", Type: "400gbase-x-qsfpdd", MgmtOnly: false },
+            { Name: "m1", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "m2", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "m3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "m4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
     "SP-RACKTRAY-02": {

@@ -44,6 +44,51 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 5", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "DES-1210-08P": {
+        Manufacturer: "D-Link",
+        Model: "DES-1210-08P",
+        Slug: "d-link-des-1210-08p",
+        UHeight: 1,
+        PartNumber: "DES-1210-08P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 80, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "slot0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "slot0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "DES-1210-28": {
         Manufacturer: "D-Link",
         Model: "DES-1210-28",
@@ -1574,6 +1619,70 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 26", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "Port 27", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "Port 28", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DGS-1210-28X-ME": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1210-28X-ME",
+        Slug: "d-link-dgs-1210-28x-me",
+        UHeight: 1,
+        PartNumber: "DGS-1210-28X-ME",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 25, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/25", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/26", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/27", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "DGS-1210-52": {

@@ -2,6 +2,94 @@
 package devices
 
 var DeviceTypesMapsecuritycode = map[string]*DeviceData{
+    "IPC-10": {
+        Manufacturer: "SecurityCode",
+        Model: "IPC-10",
+        Slug: "securitycode-ipc-10",
+        UHeight: 0,
+        PartNumber: "LN-010A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "iButton", Type: "rj-12", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 36 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "igb0", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb1", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb2", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "usb1", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "usb2", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
+    "IPC-50": {
+        Manufacturer: "SecurityCode",
+        Model: "IPC-50",
+        Slug: "securitycode-ipc-50",
+        UHeight: 0,
+        PartNumber: "LN-010C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 1.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "iButton", Type: "rj-12", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "DC", Type: "dc-terminal", MaximumDraw: 36, AllocatedDraw: 36 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "igb0", Label: "1", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "igb1", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb2", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb3", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "igb4", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "usb1", Label: "", Type: "lte", MgmtOnly: false },
+            { Name: "usb2", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "IPC-R50": {
         Manufacturer: "SecurityCode",
         Model: "IPC-R50",
