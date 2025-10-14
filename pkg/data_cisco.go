@@ -3140,11 +3140,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ASR1001",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 10.59,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3154,8 +3154,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3164,6 +3162,9 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SPA0", Label: "SPA", Position: "0/1" },
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3288,11 +3289,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "ASR1002-HX",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 15.42,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3301,8 +3302,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "P0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "P1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3314,6 +3313,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "ASR1002-HX-EPA", Label: "EPA", Position: "0/2" },
             { Name: "ASR1002-HX-NIM", Label: "NIM", Position: "1" },
             { Name: "ASR1002-HX-CRYPTO", Label: "CRYPTO", Position: "0" },
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3346,11 +3347,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "ASR1002X-5G-K9",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 17.36,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3359,8 +3360,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 470, AllocatedDraw: 0 },
-            { Name: "PS2", Label: "", Type: "iec-60320-c14", MaximumDraw: 470, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -3369,6 +3368,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "SPA0", Label: "SPA", Position: "0/1" },
+            { Name: "SPA1", Label: "SPA", Position: "0/2" },
+            { Name: "SPA2", Label: "SPA", Position: "0/3" },
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3382,7 +3386,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Loopback0", Label: "", Type: "virtual", MgmtOnly: true },
         },
     },
     "ASR1004": {
