@@ -462,6 +462,86 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "FE/GE5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "AirEngine5761-21": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine5761-21",
+        Slug: "huawei-airengine5761-21",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1060,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-12V", Label: "", Type: "dc-terminal", MaximumDraw: 17, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GE0/PoE_IN", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AirEngine5761R-11E": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine5761R-11E",
+        Slug: "huawei-airengine5761r-11e",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2040,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-12V", Label: "", Type: "dc-terminal", MaximumDraw: 19, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GE0/PoE_IN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "AirEngine5762-12": {
         Manufacturer: "Huawei",
         Model: "AirEngine5762-12",
@@ -497,6 +577,44 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "GE0/PoE_IN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "AirEngine5762-12SW": {
+        Manufacturer: "Huawei",
+        Model: "AirEngine5762-12SW",
+        Slug: "huawei-airengine5762-12sw",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 185,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "GE0/PoE_IN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1/Ext", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "AirEngine5773-21": {
