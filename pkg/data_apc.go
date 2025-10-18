@@ -3026,7 +3026,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.93,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

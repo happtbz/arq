@@ -855,7 +855,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2520,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1101,7 +1101,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.28,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1110,7 +1110,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 15, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2303,7 +2303,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 2460,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2355,7 +2355,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4545,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2824,7 +2824,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1200,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -3069,7 +3069,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 880,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

@@ -595,10 +595,10 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "MgmtEth0/RP0/CPU0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "8818-SYS": {
+    "8818": {
         Manufacturer: "Cisco",
-        Model: "8818-SYS",
-        Slug: "cisco-8818-sys",
+        Model: "8818",
+        Slug: "cisco-8818",
         UHeight: 33,
         PartNumber: "8818-SYS",
         IsFullDepth: true,
@@ -1908,6 +1908,52 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Power Slot 1", Label: "", Position: "PSU1" },
             { Name: "Power Slot 2", Label: "", Position: "PSU2" },
             { Name: "Power Slot 3", Label: "", Position: "PSU3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ASR-9006-DC": {
+        Manufacturer: "Cisco",
+        Model: "ASR-9006-DC",
+        Slug: "cisco-asr-9006-dc",
+        UHeight: 10,
+        PartNumber: "ASR-9006-DC",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 40.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Rack 0(Chassis)", Label: "", Position: "0" },
+            { Name: "Line Card Slot 0", Label: "LC0", Position: "0" },
+            { Name: "Line Card Slot 1", Label: "LC1", Position: "1" },
+            { Name: "Line Card Slot 2", Label: "LC2", Position: "2" },
+            { Name: "Line Card Slot 3", Label: "LC3", Position: "3" },
+            { Name: "Route Processor Slot 0", Label: "RSP0", Position: "0" },
+            { Name: "Route Processor Slot 1", Label: "RSP1", Position: "1" },
+            { Name: "Power Module Slot0", Label: "PM0", Position: "0" },
+            { Name: "Power Module Slot1", Label: "PM1", Position: "1" },
+            { Name: "Power Module Slot2", Label: "PM2", Position: "2" },
+            { Name: "Power Module Slot3", Label: "PM3", Position: "3" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -6729,6 +6775,73 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet17", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GigabitEthernet18", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "vlan1", Label: "", Type: "virtual", MgmtOnly: false },
+        },
+    },
+    "CBS350-24FP-4X": {
+        Manufacturer: "Cisco",
+        Model: "CBS350-24FP-4X",
+        Slug: "cisco-cbs350-24fp-4x",
+        UHeight: 1,
+        PartNumber: "WCBS350-24FP-4X",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "con1", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 236, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Vlan1", Label: "", Type: "virtual", MgmtOnly: false },
         },
     },
     "CBS350-24P-4G": {
@@ -53969,6 +54082,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Ethernet L/1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Ethernet L/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "CIMC", Label: "o]", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "UCS C240 M8L": {
+        Manufacturer: "Cisco",
+        Model: "UCS C240 M8L",
+        Slug: "cisco-ucsc-c240-m8l",
+        UHeight: 2,
+        PartNumber: "UCSC-C240-M8L",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "IOIOI", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 01", Label: "", Position: "1" },
+            { Name: "PSU 02", Label: "", Position: "2" },
+            { Name: "RAID", Label: "", Position: "RAID" },
+            { Name: "mLOM", Label: "", Position: "mLOM" },
+            { Name: "PCIe slot 1", Label: "", Position: "PCIe-1" },
+            { Name: "PCIe slot 2", Label: "", Position: "PCIe-2" },
+            { Name: "PCIe slot 3", Label: "", Position: "PCIe-3" },
+            { Name: "PCIe slot 4", Label: "", Position: "PCIe-4" },
+            { Name: "PCIe slot 5", Label: "", Position: "PCIe-5" },
+            { Name: "PCIe slot 6", Label: "", Position: "PCIe-6" },
+            { Name: "PCIe slot 7", Label: "", Position: "PCIe-7" },
+            { Name: "PCIe slot 8", Label: "", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
             { Name: "CIMC", Label: "o]", Type: "1000base-t", MgmtOnly: true },
         },
     },

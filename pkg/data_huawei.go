@@ -52,11 +52,11 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "H22-05-S8AFF",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 20,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -65,8 +65,6 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 900, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 900, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -75,6 +73,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -176,8 +176,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "AR6121E": {
@@ -872,7 +872,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "CE6820H-48S6CQ",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -885,8 +885,6 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 141 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 141 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -895,6 +893,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -965,7 +965,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -978,8 +978,6 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 141 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 141 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -988,6 +986,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1939,6 +1939,54 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "40GE0/0/2", Label: "", Type: "40gbase-x-qsfpp", MgmtOnly: false },
         },
     },
+    "D3V6-192G-SAS-Ctrl": {
+        Manufacturer: "Huawei",
+        Model: "D3V6-192G-SAS-Ctrl",
+        Slug: "huawei-d3v6-192g-sas-ctrl",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "IOM_0", Label: "", Position: "IOM_0" },
+            { Name: "IOM_1", Label: "", Position: "IOM_1" },
+            { Name: "IOM_2", Label: "", Position: "IOM_2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Net P2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Net P3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Net P4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Net P5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Net P6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Net P7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Net P8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Net P9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "service", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "D5V6-256G-NVMe-Ctrl": {
         Manufacturer: "Huawei",
         Model: "D5V6-256G-NVMe-Ctrl",
@@ -2040,19 +2088,15 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         Airflow: "",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "",
-        Weight: 0,
+        SubdeviceRole: "parent",
+        Weight: 35,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "Serial_A", Type: "rj-45", Label: "", Poe: false },
-            { Name: "Serial_B", Type: "rj-45", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 900, AllocatedDraw: 0 },
-            { Name: "PSU2", Label: "", Type: "iec-60320-c14", MaximumDraw: 900, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2061,32 +2105,16 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
         },
 			  DeviceBays: []DeviceBay{
+            { Name: "Contoller A", Label: "" },
+            { Name: "Contoller B", Label: "" },
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Net P2.A", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P3.A", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P4.A", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P5.A", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P6.A", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P7.A", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P8.A", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P9.A", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt.A", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "service.A", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "Net P2.B", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P3.B", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P4.B", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P5.B", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net P6.B", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P7.B", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P8.B", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net P9.B", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "mgmt.B", Label: "", Type: "1000base-t", MgmtOnly: true },
-            { Name: "service.B", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "Dorado 5000 V6 Enclosure": {
@@ -3883,10 +3911,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S5731-S24T4X": {
@@ -4231,10 +4259,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S5735-L24T4X-A": {
@@ -4387,10 +4415,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface GigabitEthernet0/0/49", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "interface GigabitEthernet0/0/50", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "interface GigabitEthernet0/0/51", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "interface GigabitEthernet0/0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/49", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/50", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/51", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
     "S5735-L48P4X-A": {
@@ -4477,10 +4505,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S5735-L48P4X-A1": {
@@ -4567,10 +4595,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S5735-L48P4XE-A-V2": {
@@ -4897,12 +4925,12 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/48", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "XGigabitEthernet0/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S5735I-S8U4XN-V2": {
@@ -4950,10 +4978,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "interface XGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "10GigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "S6720-30C-EI-24S-AC": {

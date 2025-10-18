@@ -126,6 +126,103 @@ var DeviceTypesMap3com = map[string]*DeviceData{
             { Name: "FastEthernet0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "3C16792C": {
+        Manufacturer: "3Com",
+        Model: "3C16792C",
+        Slug: "3com-3c16792c",
+        UHeight: 1,
+        PartNumber: "3C16792C",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12V1A", Label: "", Type: "dc-terminal", MaximumDraw: 9, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "3CFSU08": {
+        Manufacturer: "3Com",
+        Model: "3CFSU08",
+        Slug: "3com-3cfsu08",
+        UHeight: 0,
+        PartNumber: "3CFSU08",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 252,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c8", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet8", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "4200G 12 port": {
         Manufacturer: "3Com",
         Model: "4200G 12 port",

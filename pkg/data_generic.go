@@ -1940,7 +1940,7 @@ var DeviceTypesMapgeneric = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 0.3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
