@@ -48,4 +48,52 @@ var DeviceTypesMapruggedcom = map[string]*DeviceData{
             { Name: "9", Label: "", Type: "100base-fx", MgmtOnly: false },
         },
     },
+    "Rugged Switch RST2228P": {
+        Manufacturer: "RuggedCOM",
+        Model: "Rugged Switch RST2228P",
+        Slug: "ruggedcom-rugged-switch-rst2228p",
+        UHeight: 1,
+        PartNumber: "RST2228P",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 10,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "usb-b", Label: "Console", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC Input 1", Label: "", Type: "dc-terminal", MaximumDraw: 600, AllocatedDraw: 0 },
+            { Name: "DC Input 2", Label: "", Type: "dc-terminal", MaximumDraw: 600, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "TOP 1" },
+            { Name: "2", Label: "", Position: "Bottom 1" },
+            { Name: "3", Label: "", Position: "TOP 2" },
+            { Name: "4", Label: "", Position: "Bottom 2" },
+            { Name: "5", Label: "", Position: "TOP 3" },
+            { Name: "6", Label: "", Position: "Bottom 3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
 }
