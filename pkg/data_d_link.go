@@ -2347,6 +2347,66 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "GigabitEthernet1/0/24F", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "GO-SW-24G": {
+        Manufacturer: "D-Link",
+        Model: "GO-SW-24G",
+        Slug: "d-link-go-sw-24g",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.35,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 24", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "GO-SW-5G": {
         Manufacturer: "D-Link",
         Model: "GO-SW-5G",
