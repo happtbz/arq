@@ -2227,6 +2227,53 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "interface 0/52", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "EdgeSwitch 8 150W": {
+        Manufacturer: "Ubiquiti",
+        Model: "EdgeSwitch 8 150W",
+        Slug: "ubiquiti-es-8-150w",
+        UHeight: 0,
+        PartNumber: "ES-8-150W",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1720,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 150 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "Enterprise Campus Aggregation": {
         Manufacturer: "Ubiquiti",
         Model: "Enterprise Campus Aggregation",

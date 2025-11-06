@@ -75,4 +75,40 @@ var DeviceTypesMapkerlink = map[string]*DeviceData{
             { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "Wirnet iStation": {
+        Manufacturer: "Kerlink",
+        Model: "Wirnet iStation",
+        Slug: "kerlink-wirnet-istation",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
 }
