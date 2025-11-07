@@ -629,6 +629,65 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "em0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ACX7020-AC": {
+        Manufacturer: "Juniper",
+        Model: "ACX7020-AC",
+        Slug: "juniper-acx7020-ac",
+        UHeight: 1,
+        PartNumber: "ACX7020-AC",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.45,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSM 0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PSM 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "re0:mgmt-0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "et-0/0/0", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "et-0/0/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "et-0/0/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "et-0/0/3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "et-0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/8", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/11", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/12", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/13", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/14", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/15", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/16", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/17", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/18", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "et-0/0/19", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "ACX7024-AC": {
         Manufacturer: "Juniper",
         Model: "ACX7024-AC",
