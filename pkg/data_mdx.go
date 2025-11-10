@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMapmdx = map[string]*DeviceData{
     "N00T01-FA-L-IO": {
-        Manufacturer: "mdx",
+        Manufacturer: "MDX",
         Model: "N00T01-FA-L-IO",
         Slug: "mdx-n00t01-fa-l-io",
         UHeight: 3,
