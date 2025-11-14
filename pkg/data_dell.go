@@ -2705,6 +2705,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "PowerEdge R660xs": {

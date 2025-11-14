@@ -1197,6 +1197,53 @@ var DeviceTypesMapedgecore = map[string]*DeviceData{
             { Name: "Eth 1/28", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "ES3510MA": {
+        Manufacturer: "Edgecore",
+        Model: "ES3510MA",
+        Slug: "edgecore-es3510ma",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.72,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 32, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ethernet 1/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "ethernet 1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ethernet 1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ES3528MV2": {
         Manufacturer: "Edgecore",
         Model: "ES3528MV2",
