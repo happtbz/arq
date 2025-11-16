@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMaptp_link = map[string]*DeviceData{
+    "Archer AX1800": {
+        Manufacturer: "TP-Link",
+        Model: "Archer AX1800",
+        Slug: "tp-link-archer-ax1800",
+        UHeight: 0,
+        PartNumber: "archer-ax1800",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 900,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "Power", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "Archer C7 AC1750 v4": {
         Manufacturer: "TP-Link",
         Model: "Archer C7 AC1750 v4",

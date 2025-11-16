@@ -249,6 +249,92 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "eth16", Label: "16", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "SG1535": {
+        Manufacturer: "Check Point",
+        Model: "SG1535",
+        Slug: "check-point-sg1535",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1535",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 18 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG1555": {
+        Manufacturer: "Check Point",
+        Model: "SG1555",
+        Slug: "check-point-sg1555",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1555",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.43,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 18 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SG1570": {
         Manufacturer: "Check Point",
         Model: "SG1570",
@@ -366,6 +452,54 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG1595": {
+        Manufacturer: "Check Point",
+        Model: "SG1595",
+        Slug: "check-point-sg1595",
+        UHeight: 1,
+        PartNumber: "CPAP-SG1595",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -694,6 +828,355 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "SYNC", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2530": {
+        Manufacturer: "Check Point",
+        Model: "SG2530",
+        Slug: "check-point-sg2530",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2530",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 26 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2550": {
+        Manufacturer: "Check Point",
+        Model: "SG2550",
+        Slug: "check-point-sg2550",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2550",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 40, AllocatedDraw: 26 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "DMZ-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2560": {
+        Manufacturer: "Check Point",
+        Model: "SG2560",
+        Slug: "check-point-sg2560",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2560",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+            { Name: "PSU2", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2570": {
+        Manufacturer: "Check Point",
+        Model: "SG2570",
+        Slug: "check-point-sg2570",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2570",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+            { Name: "PSU2", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "DMZ", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "X1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "X2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG2580": {
+        Manufacturer: "Check Point",
+        Model: "SG2580",
+        Slug: "check-point-sg2580",
+        UHeight: 1,
+        PartNumber: "CPAP-SG2580",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE-U", Type: "usb-c", Label: "", Poe: false },
+            { Name: "CONSOLE-S", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU1", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+            { Name: "PSU2", Label: "", Type: "dc-terminal", MaximumDraw: 60, AllocatedDraw: 40 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN-RJ-45", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "WAN-SFP&#43;", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "DMZ-RJ-45", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "DMZ-SFP&#43;", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SG29100": {
+        Manufacturer: "Check Point",
+        Model: "SG29100",
+        Slug: "check-point-sg29100",
+        UHeight: 2,
+        PartNumber: "CPAP-SG29100",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console2", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7", Label: "", Position: "7" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT1", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "MGMT2", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "SYNC1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SYNC2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+        },
+    },
+    "SG29200": {
+        Manufacturer: "Check Point",
+        Model: "SG29200",
+        Slug: "check-point-sg29200",
+        UHeight: 2,
+        PartNumber: "CPAP-SG29200",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "Console2", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "1", Label: "", Position: "1" },
+            { Name: "2", Label: "", Position: "2" },
+            { Name: "3", Label: "", Position: "3" },
+            { Name: "4", Label: "", Position: "4" },
+            { Name: "5", Label: "", Position: "5" },
+            { Name: "6", Label: "", Position: "6" },
+            { Name: "7", Label: "", Position: "7" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LOM", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "MGMT1", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "MGMT2", Label: "", Type: "10gbase-t", MgmtOnly: true },
+            { Name: "SYNC1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "SYNC2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
         },
     },
     "SG3600": {

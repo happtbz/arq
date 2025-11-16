@@ -4982,6 +4982,46 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "eth 1", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "BC650-RSX761": {
+        Manufacturer: "APC",
+        Model: "BC650-RSX761",
+        Slug: "apc-bc650-rsx761",
+        UHeight: 0,
+        PartNumber: "Back-UPS-BC650-RSX761",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "Input", Type: "ita-ef", MaximumDraw: 360, AllocatedDraw: 360 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "BN450M": {
         Manufacturer: "APC",
         Model: "BN450M",
@@ -5107,6 +5147,47 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Power Outlet Battery Backup 3", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Power Outlet Battery Backup 4", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Power Outlet Battery Backup 5", Type: "nema-5-15r", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "BX650CI-RS": {
+        Manufacturer: "APC",
+        Model: "BX650CI-RS",
+        Slug: "apc-bx650ci-rs",
+        UHeight: 0,
+        PartNumber: "Back-UPS-BX650CI-RS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 6.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-b", Label: "PowerChute USB Port", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "Input", Type: "ita-ef", MaximumDraw: 390, AllocatedDraw: 390 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },

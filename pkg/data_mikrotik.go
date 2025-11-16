@@ -3651,7 +3651,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 139,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

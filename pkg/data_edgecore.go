@@ -952,6 +952,52 @@ var DeviceTypesMapedgecore = map[string]*DeviceData{
             { Name: "ce56", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
         },
     },
+    "ECS2000-10P": {
+        Manufacturer: "Edgecore",
+        Model: "ECS2000-10P",
+        Slug: "edgecore-ecs2000-10p",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 100, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "ECS4100-12T": {
         Manufacturer: "Edgecore",
         Model: "ECS4100-12T",

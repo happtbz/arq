@@ -922,22 +922,22 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         Model: "S5210G-24TX",
         Slug: "snr-s5210g-24tx",
         UHeight: 1,
-        PartNumber: "SNR-S5210G-24TX",
+        PartNumber: "s5210g-24tx",
         IsFullDepth: false,
         Airflow: "passive",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
         Weight: 3.25,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "con 0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "console", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS", Label: "", Type: "iec-60320-c14", MaximumDraw: 45, AllocatedDraw: 30 },
+            { Name: "PSU", Label: "~100-240V;50/60Hz", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 30 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -1406,6 +1406,56 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Ethernet", Label: "", Type: "1000base-tx", MgmtOnly: true },
+        },
+    },
+    "SNR-UPS-ONRT-1000-S24 ELEMENT II": {
+        Manufacturer: "SNR",
+        Model: "SNR-UPS-ONRT-1000-S24 ELEMENT II",
+        Slug: "snr-ups-onrt-1000-s24",
+        UHeight: 2,
+        PartNumber: "SNR-UPS-ONRT-1000-S24",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 8.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-b", Label: "usb", Poe: false },
+            { Name: "rs232", Type: "de-9", Label: "rs232", Poe: false },
+            { Name: "epo", Type: "other", Label: "epo", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "Input", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 1000 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Segment1-1", Type: "iec-60320-c13", Label: "Segment1-1", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment1-2", Type: "iec-60320-c13", Label: "Segment1-2", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment1-3", Type: "iec-60320-c13", Label: "Segment1-3", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment1-4", Type: "iec-60320-c13", Label: "Segment1-4", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment2-1", Type: "iec-60320-c13", Label: "Segment2-1", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment2-2", Type: "iec-60320-c13", Label: "Segment2-2", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment2-3", Type: "iec-60320-c13", Label: "Segment2-3", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Segment2-4", Type: "iec-60320-c13", Label: "Segment2-4", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+            { Name: "IN RG45 NET SURGE PROTECTION", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
+        },
+        RearPorts: []RearPort{
+            { Name: "OUT RG45 NET SURGE PROTECTION", Label: "", Type: "8p8c", Positions: 1, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "INTELLIGENT SLOT", Label: "INTELLIGENT SLOT", Position: "INTELLIGENT SLOT" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SNR-UPS-ONRT-3000-S72": {

@@ -568,6 +568,50 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "GigabitEthernet/5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DGS-1100-08": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1100-08",
+        Slug: "d-link-dgs-1100-08",
+        UHeight: 0,
+        PartNumber: "DGS-1100-08",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0.34,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "5V 1A", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 2 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DGS-1100-08P": {
         Manufacturer: "D-Link",
         Model: "DGS-1100-08P",
@@ -612,6 +656,50 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DGS-1100-08PLV2": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1100-08PLV2",
+        Slug: "d-link-dgs-1100-08plv2",
+        UHeight: 0,
+        PartNumber: "DGS-1100-08PLV2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "54V 1.67A", Type: "dc-terminal", MaximumDraw: 84, AllocatedDraw: 4 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "DGS-1100-08PV2": {
         Manufacturer: "D-Link",
         Model: "DGS-1100-08PV2",
@@ -654,6 +742,50 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "DGS-1100-08V2": {
+        Manufacturer: "D-Link",
+        Model: "DGS-1100-08V2",
+        Slug: "d-link-dgs-1100-08v2",
+        UHeight: 0,
+        PartNumber: "DGS-1100-08V2",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 0.34,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "5V 1A", Type: "dc-terminal", MaximumDraw: 5, AllocatedDraw: 2 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "8", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "DGS-1100-10MP": {
