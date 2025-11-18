@@ -97,6 +97,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "HW-Group": DeviceTypesMaphw_group,
     "HiWatch": DeviceTypesMaphiwatch,
     "Hikvision": DeviceTypesMaphikvision,
+    "Hitron": DeviceTypesMaphitron,
     "Huawei": DeviceTypesMaphuawei,
     "IBM": DeviceTypesMapibm,
     "ITK": DeviceTypesMapitk,
