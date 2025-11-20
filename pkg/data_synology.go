@@ -355,6 +355,46 @@ var DeviceTypesMapsynology = map[string]*DeviceData{
             { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "DS2015xs": {
+        Manufacturer: "Synology",
+        Model: "DS2015xs",
+        Slug: "synology-ds2015xs",
+        UHeight: 0,
+        PartNumber: "DS2015xs",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Lan 1", Label: "1GbE RJ45 LAN port 1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 2", Label: "1GbE RJ45 LAN port 2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Lan 3", Label: "10Gb SFP&#43; LAN Port 3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "Lan 4", Label: "10Gb SFP&#43; LAN Port 3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "DS218": {
         Manufacturer: "Synology",
         Model: "DS218",
