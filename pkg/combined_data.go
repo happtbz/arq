@@ -143,6 +143,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "NETIO": DeviceTypesMapnetio,
     "NICGIGA": DeviceTypesMapnicgiga,
     "Nabu Casa": DeviceTypesMapnabu_casa,
+    "Nateks": DeviceTypesMapnateks,
     "Neousys": DeviceTypesMapneousys,
     "NetApp": DeviceTypesMapnetapp,
     "NetPing": DeviceTypesMapnetping,

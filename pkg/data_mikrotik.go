@@ -3723,6 +3723,49 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RB951Ui-2HnD": {
+        Manufacturer: "MikroTik",
+        Model: "RB951Ui-2HnD",
+        Slug: "mikrotik-rb951ui-2hnd",
+        UHeight: 0,
+        PartNumber: "RB951Ui-2HnD",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "USB", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "dc-terminal", MaximumDraw: 24, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ether1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Ether5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11g", MgmtOnly: false },
+        },
+    },
     "RB960PGS": {
         Manufacturer: "MikroTik",
         Model: "RB960PGS",

@@ -11639,7 +11639,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -26859,8 +26859,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -26870,6 +26868,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "1" },
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26926,8 +26926,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 740, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -26939,6 +26937,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Network Module", Label: "", Position: "1" },
             { Name: "StackPort1/1", Label: "", Position: "1/1" },
             { Name: "StackPort1/2", Label: "", Position: "1/2" },
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27017,8 +27017,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27028,6 +27026,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "1" },
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27226,8 +27226,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27236,6 +27234,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27506,8 +27506,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27516,6 +27514,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27576,8 +27576,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27586,6 +27584,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27740,8 +27740,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27750,6 +27748,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -27928,8 +27928,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 600, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -27938,6 +27936,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -28208,8 +28208,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -28218,6 +28216,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -28302,8 +28302,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 125, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -28312,6 +28310,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -31039,7 +31039,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 10.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31049,8 +31049,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31059,6 +31057,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
             { Name: "Network Module", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
@@ -31160,7 +31160,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 9.52,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31170,8 +31170,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-0", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 650, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31180,6 +31178,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -31228,7 +31228,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 11.63,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31238,8 +31238,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31248,6 +31246,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -31300,7 +31300,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 9.91,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31310,8 +31310,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-0", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31320,6 +31318,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -31388,7 +31388,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 11.68,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -31398,8 +31398,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 850, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -31409,6 +31407,8 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         },
         ModuleBays: []ModuleBay{
             { Name: "Network Module", Label: "", Position: "1" },
+            { Name: "PS-0", Label: "", Position: "PS-0" },
+            { Name: "PS-1", Label: "", Position: "PS-1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -32847,6 +32847,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 80, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -37427,6 +37428,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
+    "ISR2801": {
+        Manufacturer: "Cisco",
+        Model: "ISR2801",
+        Slug: "cisco-isr2801",
+        UHeight: 1,
+        PartNumber: "ISR2801/K9",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "aux", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb0", Type: "usb-mini-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c6", MaximumDraw: 120, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "AIM slot 0", Label: "AIM 0", Position: "AIM0" },
+            { Name: "AIM slot 1", Label: "AIM 1", Position: "AIM1" },
+            { Name: "Slot 0 SubSlot 4", Label: "PVDM0", Position: "PVDM0" },
+            { Name: "Slot 0 SubSlot 5", Label: "PVDM1", Position: "PVDM1" },
+            { Name: "Slot 0/0", Label: "HWIC0", Position: "0/0" },
+            { Name: "Slot 0/1", Label: "HWIC1", Position: "0/1" },
+            { Name: "Slot 0/2", Label: "HWIC2", Position: "0/2" },
+            { Name: "Slot 0/3", Label: "HWIC3", Position: "0/3" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
     "ISR2811": {
         Manufacturer: "Cisco",
         Model: "ISR2811",
@@ -37438,59 +37488,18 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
             { Name: "aux", Type: "rj-45", Label: "", Poe: false },
             { Name: "usb0", Type: "usb-mini-b", Label: "", Poe: false },
-            { Name: "usb1", Type: "usb-mini-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU0", Label: "", Type: "iec-60320-c6", MaximumDraw: 160, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
-        },
-    },
-    "ISR2821": {
-        Manufacturer: "Cisco",
-        Model: "ISR2821",
-        Slug: "cisco-isr2821",
-        UHeight: 2,
-        PartNumber: "CISCO2821",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "aux 0", Type: "rj-45", Label: "AUX", Poe: false },
-            { Name: "con 0", Type: "rj-45", Label: "CONSOLE", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -37508,7 +37517,106 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Slot 0/2", Label: "HWIC2", Position: "0/2" },
             { Name: "Slot 0/3", Label: "HWIC3", Position: "0/3" },
             { Name: "Slot 1/0", Label: "1", Position: "1/0" },
-            { Name: "Slot 2/0", Label: "2", Position: "2/0" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "ISR2821": {
+        Manufacturer: "Cisco",
+        Model: "ISR2821",
+        Slug: "cisco-isr2821",
+        UHeight: 2,
+        PartNumber: "CISCO2821",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "aux 0", Type: "rj-45", Label: "AUX", Poe: false },
+            { Name: "con 0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 240, AllocatedDraw: 120 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "AIM slot 0", Label: "AIM 0", Position: "AIM0" },
+            { Name: "AIM slot 1", Label: "AIM 1", Position: "AIM1" },
+            { Name: "Slot 0 SubSlot 4", Label: "PVDM0", Position: "PVDM0" },
+            { Name: "Slot 0 SubSlot 5", Label: "PVDM1", Position: "PVDM1" },
+            { Name: "Slot 0 SubSlot 6", Label: "PVDM2", Position: "PVDM2" },
+            { Name: "Slot 0/0", Label: "HWIC0", Position: "0/0" },
+            { Name: "Slot 0/1", Label: "HWIC1", Position: "0/1" },
+            { Name: "Slot 0/2", Label: "HWIC2", Position: "0/2" },
+            { Name: "Slot 0/3", Label: "HWIC3", Position: "0/3" },
+            { Name: "Slot 1/0", Label: "1", Position: "1/0" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "GE 0/0", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "GE 0/1", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ISR2851": {
+        Manufacturer: "Cisco",
+        Model: "ISR2851",
+        Slug: "cisco-isr2851",
+        UHeight: 2,
+        PartNumber: "CISCO2851",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 11.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "aux 0", Type: "rj-45", Label: "AUX", Poe: false },
+            { Name: "con 0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "iec-60320-c14", MaximumDraw: 360, AllocatedDraw: 180 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "AIM slot 0", Label: "AIM 0", Position: "AIM0" },
+            { Name: "AIM slot 1", Label: "AIM 1", Position: "AIM1" },
+            { Name: "Slot 0 SubSlot 4", Label: "PVDM0", Position: "PVDM0" },
+            { Name: "Slot 0 SubSlot 5", Label: "PVDM1", Position: "PVDM1" },
+            { Name: "Slot 0 SubSlot 6", Label: "PVDM2", Position: "PVDM2" },
+            { Name: "Slot 0/0", Label: "HWIC0", Position: "0/0" },
+            { Name: "Slot 0/1", Label: "HWIC1", Position: "0/1" },
+            { Name: "Slot 0/2", Label: "HWIC2", Position: "0/2" },
+            { Name: "Slot 0/3", Label: "HWIC3", Position: "0/3" },
+            { Name: "Slot 1/0", Label: "1", Position: "1/0" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -56709,7 +56817,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
