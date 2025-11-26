@@ -31825,6 +31825,57 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "TenGigabitEthernet0/0/3", Label: "", Type: "10gbase-t", MgmtOnly: false },
         },
     },
+    "Catalyst 9800-80-K9": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9800-80-K9",
+        Slug: "cisco-c9800-80-k9",
+        UHeight: 2,
+        PartNumber: "C9800-80-K9",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.29,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb0", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU0", Label: "", Position: "PSU0" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "Bay 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management Port", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Redundancy Port-RJ-45", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Redundancy Port-SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: true },
+            { Name: "TenGigabitEthernet0/0/0", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/6", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet0/0/7", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "Catalyst 9800-L Wireless Controller Rack Mount Tray": {
         Manufacturer: "Cisco",
         Model: "Catalyst 9800-L Wireless Controller Rack Mount Tray",

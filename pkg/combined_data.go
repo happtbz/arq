@@ -34,6 +34,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Brennenstuhl": DeviceTypesMapbrennenstuhl,
     "Brocade": DeviceTypesMapbrocade,
     "CP Plus": DeviceTypesMapcp_plus,
+    "CXR": DeviceTypesMapcxr,
     "Cabeus": DeviceTypesMapcabeus,
     "Cable Matters": DeviceTypesMapcable_matters,
     "Calient": DeviceTypesMapcalient,
