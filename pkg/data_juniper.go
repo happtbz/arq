@@ -10937,6 +10937,50 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "MX304 BASE": {
+        Manufacturer: "Juniper",
+        Model: "MX304 BASE",
+        Slug: "juniper-mx304-base",
+        UHeight: 2,
+        PartNumber: "MX304-BASE",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 30,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Power Supply 0", Label: "", Position: "PSU 0" },
+            { Name: "Power Supply 1", Label: "", Position: "PSU 1" },
+            { Name: "Fan tray 0", Label: "", Position: "0" },
+            { Name: "Fan tray 1", Label: "", Position: "1" },
+            { Name: "Fan tray 2", Label: "", Position: "2" },
+            { Name: "RE 0", Label: "", Position: "RE 0" },
+            { Name: "RE1 / LMIC 2", Label: "", Position: "RE1 / LMIC 2" },
+            { Name: "LMIC 0", Label: "", Position: "LMIC 0" },
+            { Name: "LMIC 1", Label: "", Position: "LMIC 1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "MX40": {
         Manufacturer: "Juniper",
         Model: "MX40",
