@@ -192,6 +192,44 @@ var DeviceTypesMapapple = map[string]*DeviceData{
             { Name: "wireless", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "Mac Studio 2025 M4 Max": {
+        Manufacturer: "Apple",
+        Model: "Mac Studio 2025 M4 Max",
+        Slug: "apple-mac-studio-2025-m4-max",
+        UHeight: 3,
+        PartNumber: "A3143",
+        IsFullDepth: false,
+        Airflow: "bottom-to-top",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c6", MaximumDraw: 480, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "wireless", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "Mac mini (2011)": {
         Manufacturer: "Apple",
         Model: "Mac mini (2011)",

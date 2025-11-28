@@ -1163,7 +1163,6 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "eth5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "switch0", Label: "", Type: "bridge", MgmtOnly: false },
         },
     },
     "EdgePoint Router 8-Port": {

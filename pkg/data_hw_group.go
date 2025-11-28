@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMaphw_group = map[string]*DeviceData{
     "HWG-STE": {
-        Manufacturer: "HW-GROUP",
+        Manufacturer: "HW-Group",
         Model: "HWG-STE",
         Slug: "hw-group-hwg-ste",
         UHeight: 0,

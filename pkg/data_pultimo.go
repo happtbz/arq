@@ -3,7 +3,7 @@ package devices
 
 var DeviceTypesMappultimo = map[string]*DeviceData{
     "701BA8PP": {
-        Manufacturer: "PULTIMO",
+        Manufacturer: "Pultimo",
         Model: "701BA8PP",
         Slug: "pultimo-701ba8pp",
         UHeight: 1,
