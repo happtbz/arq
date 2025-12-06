@@ -150,6 +150,43 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProMini 400 G9": {
+        Manufacturer: "HP",
+        Model: "ProMini 400 G9",
+        Slug: "hp-promini-400-g9",
+        UHeight: 0,
+        PartNumber: "884P1EA",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Z420": {
         Manufacturer: "HP",
         Model: "Z420",

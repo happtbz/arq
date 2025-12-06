@@ -17093,6 +17093,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "Network Module", Label: "", Position: "1" },
             { Name: "PSU1", Label: "", Position: "1" },
             { Name: "PSU2", Label: "", Position: "2" },
         },
@@ -17126,12 +17127,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
-            { Name: "GigabitEthernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "TenGigabitEthernet1/1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "TenGigabitEthernet1/2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
     "Catalyst 3560X-24T-S": {

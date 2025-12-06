@@ -4967,7 +4967,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         Model: "UniFi Dream Machine Pro",
         Slug: "ubiquiti-unifi-dream-machine-pro",
         UHeight: 1,
-        PartNumber: "",
+        PartNumber: "UDM-PRO",
         IsFullDepth: false,
         Airflow: "front-to-rear",
         FrontImage: true,
