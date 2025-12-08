@@ -1748,11 +1748,11 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.93,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
