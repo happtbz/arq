@@ -2,6 +2,54 @@
 package devices
 
 var DeviceTypesMaphuawei = map[string]*DeviceData{
+    "1288H-V5": {
+        Manufacturer: "Huawei",
+        Model: "1288H-V5",
+        Slug: "huawei-1288h-v5",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "1288H-V6": {
         Manufacturer: "Huawei",
         Model: "1288H-V6",
@@ -32,22 +80,25 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "2288H V5": {
+    "2288H-V5": {
         Manufacturer: "Huawei",
-        Model: "2288H V5",
+        Model: "2288H-V5",
         Slug: "huawei-2288h-v5",
         UHeight: 2,
         PartNumber: "H22-05-S8AFF",
@@ -75,23 +126,80 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "tertiary riser", Position: "PCIe9" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Net 1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net 2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
-            { Name: "Net 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Net 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "2288H-V6": {
+    "2288H-V6-12LFF": {
         Manufacturer: "Huawei",
-        Model: "2288H-V6",
-        Slug: "huawei-2288h-v6",
+        Model: "2288H-V6-12LFF",
+        Slug: "huawei-2288h-v6-12lff",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "tertiary riser", Position: "PCIe9" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "2288H-V6-24SFF": {
+        Manufacturer: "Huawei",
+        Model: "2288H-V6-24SFF",
+        Slug: "huawei-2288h-v6-24sff",
         UHeight: 2,
         PartNumber: "H22H-06",
         IsFullDepth: true,
@@ -118,16 +226,23 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "PCIe9", Label: "tertiary riser", Position: "PCIe9" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Eth-1", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "Eth-2", Label: "", Type: "10gbase-t", MgmtOnly: false },
-            { Name: "Eth-3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Eth-4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "IPMI", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -893,8 +1008,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -986,8 +1101,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1267,10 +1382,10 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "FAN1", Label: "", Position: "Fan 1" },
-            { Name: "FAN2", Label: "", Position: "Fan 2" },
-            { Name: "PSU1", Label: "", Position: "PSU 1" },
-            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "FAN1", Label: "", Position: "1" },
+            { Name: "FAN2", Label: "", Position: "2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -1457,8 +1572,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU 1" },
-            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -2105,8 +2220,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU0", Label: "", Position: "PSU0" },
-            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
             { Name: "Contoller A", Label: "" },
@@ -2144,8 +2259,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU0", Label: "", Position: "PSU0" },
-            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU0", Label: "", Position: "0" },
+            { Name: "PSU1", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
             { Name: "Contoller A", Label: "" },
@@ -2184,8 +2299,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU 1" },
-            { Name: "PSU2", Label: "", Position: "PSU 2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3899,9 +4014,9 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "FAN1", Label: "FAN1", Position: "1" },
             { Name: "FAN2", Label: "FAN2", Position: "2" },
-            { Name: "PSU1", Label: "PWR1", Position: "PSU1" },
-            { Name: "PSU2", Label: "PWR2", Position: "PSU2" },
-            { Name: "Extend_slot", Label: "", Position: "Rear" },
+            { Name: "PSU1", Label: "PWR1", Position: "1" },
+            { Name: "PSU2", Label: "PWR2", Position: "2" },
+            { Name: "Extend_slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -3967,9 +4082,9 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "Extend_slot", Label: "", Position: "Rear" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+            { Name: "Extend_slot", Label: "", Position: "1" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5077,9 +5192,9 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PS0", Label: "", Position: "PS0" },
-            { Name: "PS1", Label: "", Position: "PS1" },
-            { Name: "PS2", Label: "", Position: "PS2" },
+            { Name: "PS0", Label: "", Position: "0" },
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -5702,8 +5817,8 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
-            { Name: "PSU1", Label: "", Position: "PSU1" },
-            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },

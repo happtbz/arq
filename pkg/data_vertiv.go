@@ -552,4 +552,39 @@ var DeviceTypesMapvertiv = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "SA1-01002": {
+        Manufacturer: "Vertiv",
+        Model: "SA1-01002",
+        Slug: "vertiv-sa1-01002",
+        UHeight: 1,
+        PartNumber: "SA1-01002",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 544,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }

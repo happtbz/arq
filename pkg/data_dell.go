@@ -2506,7 +2506,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "parent",
-        Weight: 0,
+        Weight: 21,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2515,8 +2515,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "Power 1", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 0 },
-            { Name: "Power 2", Label: "", Type: "iec-60320-c14", MaximumDraw: 800, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2530,6 +2528,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "PCIe-Gen4 1", Label: "", Position: "pcie1" },
             { Name: "Optional PCIe-Gen4 2", Label: "", Position: "pcie2" },
             { Name: "Optional PCIe-Gen4 3", Label: "", Position: "pcie3" },
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
         },
 			  DeviceBays: []DeviceBay{
         },
