@@ -38134,6 +38134,48 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Wlan-GigabitEthernet0/1/8", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "ISR 1121-4P": {
+        Manufacturer: "Cisco",
+        Model: "ISR 1121-4P",
+        Slug: "cisco-isr-1121-4p",
+        UHeight: 1,
+        PartNumber: "C1121-4P",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 115, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ISR 1121-8P": {
         Manufacturer: "Cisco",
         Model: "ISR 1121-8P",
@@ -40110,6 +40152,129 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
             { Name: "wlan4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
             { Name: "usb0", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
+    "Meraki CW9172": {
+        Manufacturer: "Cisco",
+        Model: "Meraki CW9172",
+        Slug: "cisco-meraki-cw9172",
+        UHeight: 0,
+        PartNumber: "CW9172",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "main", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "wlan4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Meraki CW9174": {
+        Manufacturer: "Cisco",
+        Model: "Meraki CW9174",
+        Slug: "cisco-meraki-cw9174",
+        UHeight: 0,
+        PartNumber: "CW9174",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "main", Label: "", Type: "5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "wlan4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
+        },
+    },
+    "Meraki CW9176": {
+        Manufacturer: "Cisco",
+        Model: "Meraki CW9176",
+        Slug: "cisco-meraki-cw9176",
+        UHeight: 0,
+        PartNumber: "CW9176",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "main", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+            { Name: "wlan4", Label: "", Type: "ieee802.15.1", MgmtOnly: false },
         },
     },
     "Meraki MR16": {

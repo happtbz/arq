@@ -70,6 +70,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Digi": DeviceTypesMapdigi,
     "Digital Loggers": DeviceTypesMapdigital_loggers,
     "Digitus": DeviceTypesMapdigitus,
+    "EFB Elektronik": DeviceTypesMapefb_elektronik,
     "Eaton": DeviceTypesMapeaton,
     "Edgecore": DeviceTypesMapedgecore,
     "Eltex": DeviceTypesMapeltex,
