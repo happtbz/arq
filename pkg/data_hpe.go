@@ -24013,7 +24013,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -24048,7 +24048,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -24083,7 +24083,42 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "ProLiant BL660c Gen9": {
+        Manufacturer: "HPE",
+        Model: "ProLiant BL660c Gen9",
+        Slug: "hpe-proliant-bl660c-gen9",
+        UHeight: 0,
+        PartNumber: "728352-B21",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

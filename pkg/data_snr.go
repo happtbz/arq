@@ -2,6 +2,81 @@
 package devices
 
 var DeviceTypesMapsnr = map[string]*DeviceData{
+    "ERS2000": {
+        Manufacturer: "SNR",
+        Model: "ERS2000",
+        Slug: "snr-ers2000",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR", Label: "", Type: "hardwired", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth", Label: "", Type: "100base-tx", MgmtOnly: false },
+        },
+    },
+    "ERS2010": {
+        Manufacturer: "SNR",
+        Model: "ERS2010",
+        Slug: "snr-ers2010",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR", Label: "", Type: "hardwired", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LTE", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "PDU-9S-C14-2-MS10L1": {
         Manufacturer: "SNR",
         Model: "PDU-9S-C14-2-MS10L1",
