@@ -93,4 +93,44 @@ var DeviceTypesMapasus = map[string]*DeviceData{
             { Name: "Network 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "RS521A-E12-RS12U": {
+        Manufacturer: "ASUS",
+        Model: "RS521A-E12-RS12U",
+        Slug: "asus-rs521a-e12-rs12u",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 18,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "MGMT", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
 }
