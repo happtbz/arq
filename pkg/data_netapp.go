@@ -2,6 +2,46 @@
 package devices
 
 var DeviceTypesMapnetapp = map[string]*DeviceData{
+    "AFF A150": {
+        Manufacturer: "NetApp",
+        Model: "AFF A150",
+        Slug: "netapp-aff-a150",
+        UHeight: 2,
+        PartNumber: "AFFA150",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 26,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "A", Label: "" },
+            { Name: "B", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AFF-C60 Chassis": {
         Manufacturer: "NetApp",
         Model: "AFF-C60 Chassis",

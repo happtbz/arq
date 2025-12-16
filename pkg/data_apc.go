@@ -5231,7 +5231,7 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "4", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
-            { Name: "IN", Label: "", Type: "8p8c", RearPort: "1", RearPortPosition: 1 },
+            { Name: "IN", Label: "", Type: "8p8c", RearPort: "OUT", RearPortPosition: 1 },
         },
         RearPorts: []RearPort{
             { Name: "OUT", Label: "", Type: "8p8c", Positions: 1, Poe: false },

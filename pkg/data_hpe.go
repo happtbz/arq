@@ -13959,8 +13959,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "JL587A",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 10,
         WeightUnit: "",
@@ -17758,8 +17758,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "C8R10A",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 13.2,
         WeightUnit: "",
@@ -24907,8 +24907,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "P19717-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 14.9,
         WeightUnit: "",
@@ -25236,6 +25236,56 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "ProLiant DL380e Gen8": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DL380e Gen8",
+        Slug: "hpe-proliant-dl380e-gen8",
+        UHeight: 2,
+        PartNumber: "669257-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 14,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "", Position: "PCIe6" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "ProLiant DL380p Gen8": {
         Manufacturer: "HPE",
         Model: "ProLiant DL380p Gen8",
@@ -25244,8 +25294,8 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         PartNumber: "653200-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
+        FrontImage: true,
+        RearImage: true,
         SubdeviceRole: "",
         Weight: 18.59,
         WeightUnit: "",
@@ -25575,6 +25625,50 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "PCIe7", Label: "", Position: "PCIe7" },
             { Name: "PCIe8", Label: "", Position: "PCIe8" },
             { Name: "PCIe9", Label: "", Position: "PCIe9" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "ProLiant DX360 Gen10": {
+        Manufacturer: "HPE",
+        Model: "ProLiant DX360 Gen10",
+        Slug: "hpe-proliant-dx360-gen10",
+        UHeight: 1,
+        PartNumber: "P56707-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 13.04,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Embedded ALOM / Flexible LOM", Label: "", Position: "ALOM" },
+            { Name: "Embedded LOM", Label: "", Position: "LOM" },
+            { Name: "PCI-E Slot 1", Label: "", Position: "PCIe1" },
+            { Name: "PCI-E Slot 2", Label: "", Position: "PCIe2" },
+            { Name: "PCI-E Slot 3", Label: "", Position: "PCIe3" },
+            { Name: "PSU Bay 1", Label: "", Position: "PSU1" },
+            { Name: "PSU Bay 2", Label: "", Position: "PSU2" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -26318,6 +26412,100 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "port21", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
             { Name: "port22", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
             { Name: "port23", Label: "", Type: "32gfc-sfpp", MgmtOnly: false },
+        },
+    },
+    "SimpliVity 380 Gen10": {
+        Manufacturer: "HPE",
+        Model: "SimpliVity 380 Gen10",
+        Slug: "hpe-simplivity-380-gen10",
+        UHeight: 2,
+        PartNumber: "P56707-B21",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 20,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
+            { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
+            { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
+            { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
+            { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
+            { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "StoreEasy 1460 Gen10": {
+        Manufacturer: "HPE",
+        Model: "StoreEasy 1460 Gen10",
+        Slug: "hpe-storeeasy-1460-gen10",
+        UHeight: 1,
+        PartNumber: "R7G17A",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 16.78,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Embedded ALOM / Flexible LOM", Label: "", Position: "ALOM" },
+            { Name: "Embedded LOM", Label: "", Position: "LOM" },
+            { Name: "PCI-E Slot 1", Label: "", Position: "PCIe1" },
+            { Name: "PCI-E Slot 2", Label: "", Position: "PCIe2" },
+            { Name: "PCI-E Slot 3", Label: "", Position: "PCIe3" },
+            { Name: "PSU Bay 1", Label: "", Position: "PSU1" },
+            { Name: "PSU Bay 2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
     "StoreEver 1/8 G2": {

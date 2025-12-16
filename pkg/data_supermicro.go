@@ -686,6 +686,58 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "Motherboard X9DRT-HF": {
+        Manufacturer: "Supermicro",
+        Model: "Motherboard X9DRT-HF",
+        Slug: "supermicro-mbd-x9drt-hf",
+        UHeight: 0,
+        PartNumber: "MBD-X9DRT-HF",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "COM1", Type: "de-9", Label: "Rear", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "CPU 1", Label: "", Position: "1" },
+            { Name: "CPU 2", Label: "", Position: "2" },
+            { Name: "PCI-E 1", Label: "", Position: "1" },
+            { Name: "PCI-E 2", Label: "", Position: "2" },
+            { Name: "PCI-E 3", Label: "", Position: "3" },
+            { Name: "DIMM A1", Label: "", Position: "1" },
+            { Name: "DIMM B1", Label: "", Position: "2" },
+            { Name: "DIMM C1", Label: "", Position: "3" },
+            { Name: "DIMM D1", Label: "", Position: "4" },
+            { Name: "DIMM E1", Label: "", Position: "5" },
+            { Name: "DIMM F1", Label: "", Position: "6" },
+            { Name: "DIMM G1", Label: "", Position: "7" },
+            { Name: "DIMM H1", Label: "", Position: "8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "SSE-G3648B": {
         Manufacturer: "Supermicro",
         Model: "SSE-G3648B",
@@ -2057,6 +2109,47 @@ var DeviceTypesMapsupermicro = map[string]*DeviceData{
             { Name: "BMC", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "SuperServer 6027TR-HTRF": {
+        Manufacturer: "Supermicro",
+        Model: "SuperServer 6027TR-HTRF",
+        Slug: "supermicro-sys-6027tr-htrf",
+        UHeight: 2,
+        PartNumber: "SYS-6027TR-HTRF",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 38.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Node 1", Label: "Compute Node 1" },
+            { Name: "Node 2", Label: "Compute Node 2" },
+            { Name: "Node 3", Label: "Compute Node 3" },
+            { Name: "Node 4", Label: "Compute Node 4" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SuperServer 6028R-TR": {

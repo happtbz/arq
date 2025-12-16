@@ -184,6 +184,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Qotom": DeviceTypesMapqotom,
     "Quantum": DeviceTypesMapquantum,
     "RAD": DeviceTypesMaprad,
+    "RackifyUS": DeviceTypesMaprackifyus,
     "Rackmount IT": DeviceTypesMaprackmount_it,
     "Raisecom": DeviceTypesMapraisecom,
     "Raritan": DeviceTypesMapraritan,
