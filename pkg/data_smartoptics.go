@@ -168,4 +168,51 @@ var DeviceTypesMapsmartoptics = map[string]*DeviceData{
             { Name: "Eth4", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "H-MD-09-921-928-4C": {
+        Manufacturer: "Smartoptics",
+        Model: "H-MD-09-921-928-4C",
+        Slug: "smartoptics-h-md-09-921-928-4c",
+        UHeight: 0,
+        PartNumber: "H-MD-09-921-928-4C",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Ext", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 1 },
+            { Name: "Mon", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 2 },
+            { Name: "NC", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 3 },
+            { Name: "921", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 4 },
+            { Name: "922", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 5 },
+            { Name: "923", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 6 },
+            { Name: "924", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 7 },
+            { Name: "925", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 8 },
+            { Name: "926", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 9 },
+            { Name: "927", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 10 },
+            { Name: "928", Label: "", Type: "lc-upc", RearPort: "Line", RearPortPosition: 11 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Line", Label: "", Type: "lc-upc", Positions: 13, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
 }
