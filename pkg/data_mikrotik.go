@@ -1494,7 +1494,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1514,7 +1514,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether1", Label: "ETH/PoE in", Type: "1000base-t", MgmtOnly: false },
             { Name: "sfp1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "sfp2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "sfp3", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
@@ -1587,7 +1587,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial1", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial1", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1697,7 +1697,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1819,7 +1819,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1883,7 +1883,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -1948,7 +1948,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2013,7 +2013,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2079,7 +2079,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -2171,7 +2171,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
-            { Name: "serial0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "serial0", Type: "rj-45", Label: "CONSOLE", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
