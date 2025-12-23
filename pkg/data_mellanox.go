@@ -204,7 +204,7 @@ var DeviceTypesMapmellanox = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 11.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

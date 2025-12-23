@@ -2717,6 +2717,48 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "E60iUGS": {
+        Manufacturer: "MikroTik",
+        Model: "E60iUGS",
+        Slug: "mikrotik-e60iugs",
+        UHeight: 0,
+        PartNumber: "E60iUGS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.28,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC jack", Label: "", Type: "dc-terminal", MaximumDraw: 10, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "sfp1", Label: "2.5G SFP", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "L009UiGS-RM": {
         Manufacturer: "MikroTik",
         Model: "L009UiGS-RM",
