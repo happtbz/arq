@@ -113,6 +113,45 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProDesk 400 G4 SFF": {
+        Manufacturer: "HP",
+        Model: "ProDesk 400 G4 SFF",
+        Slug: "hpe-prodesk-400-g4-sff",
+        UHeight: 6,
+        PartNumber: "3SW63UC",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "pcie-0", Label: "", Position: "0" },
+            { Name: "pcie-1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProDesk 400 G6 MT": {
         Manufacturer: "HP",
         Model: "ProDesk 400 G6 MT",
