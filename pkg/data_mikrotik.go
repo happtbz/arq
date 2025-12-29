@@ -1840,6 +1840,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+            { Name: "ether1", Label: "MGMT/BOOT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -2148,6 +2149,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether49", Label: "MGMT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
@@ -2239,6 +2241,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
             { Name: "ether46", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether47", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "ether48", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ether49", Label: "MGMT", Type: "100base-tx", MgmtOnly: true },
             { Name: "sfp-sfpplus1", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus2", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "sfp-sfpplus3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
