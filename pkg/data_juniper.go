@@ -10804,7 +10804,7 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         Slug: "juniper-mx204",
         UHeight: 1,
         PartNumber: "MX204",
-        IsFullDepth: false,
+        IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: true,

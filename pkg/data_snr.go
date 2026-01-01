@@ -187,6 +187,53 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
             { Name: "Ethernet1/0/28", Label: "28", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "S2985G-8T-POE": {
+        Manufacturer: "SNR",
+        Model: "S2985G-8T-POE",
+        Slug: "snr-s2985g-8t-poe",
+        UHeight: 1,
+        PartNumber: "S2985G-8T-POE",
+        IsFullDepth: false,
+        Airflow: "right-to-left",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power AC", Label: "", Type: "iec-60320-c14", MaximumDraw: 124, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/0/1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/9", Label: "9", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/0/10", Label: "10", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "S2989G-48TX-POE": {
         Manufacturer: "SNR",
         Model: "S2989G-48TX-POE",
