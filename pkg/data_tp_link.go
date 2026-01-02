@@ -2136,6 +2136,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SX3008F": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SX3008F",
+        Slug: "tp-link-tl-sx3008f",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR1", Label: "", Type: "iec-60320-c14", MaximumDraw: 16, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ten-gigabitEthernet 1/0/1", Label: "1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/2", Label: "2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/3", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/4", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/5", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/6", Label: "6", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/7", Label: "7", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/8", Label: "8", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TL-SX3016F": {
         Manufacturer: "TP-Link",
         Model: "TL-SX3016F",
@@ -2143,7 +2189,7 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "rear-to-side",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -2157,8 +2203,8 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PWR1", Label: "PWR1", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PWR2", Label: "PWR2", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PWR1", Label: "PWR1", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
+            { Name: "PWR2", Label: "PWR2", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
