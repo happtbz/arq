@@ -84,47 +84,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
-    "3925-CHASSIS": {
-        Manufacturer: "Cisco",
-        Model: "3925-CHASSIS",
-        Slug: "cisco-3925-chassis",
-        UHeight: 3,
-        PartNumber: "CISCO3925-CHASSIS",
-        IsFullDepth: true,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 0,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 420, AllocatedDraw: 100 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 420, AllocatedDraw: 100 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
     "7206VXR": {
         Manufacturer: "Cisco",
         Model: "7206VXR",
@@ -1732,11 +1691,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 2,
         PartNumber: "ASA5585-SSP-20",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 22.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1782,11 +1741,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "ASA5585-K9",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 22.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4915,13 +4874,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.59,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
             { Name: "Con", Type: "rj-45", Label: "", Poe: false },
-            { Name: "usb0", Type: "usb-a", Label: "", Poe: false },
-            { Name: "usb1", Type: "usb-mini-b", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -4941,8 +4898,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
-            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
             { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
@@ -8393,7 +8348,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.82,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -12245,7 +12200,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -12308,7 +12263,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -12360,6 +12315,95 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "Catalyst 2960&#43;48PST-L": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 2960&#43;48PST-L",
+        Slug: "cisco-catalyst-2960-plus-48pst-l",
+        UHeight: 1,
+        PartNumber: "WS-C2960&#43;48PST-L",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 460, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/17", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/18", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/19", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/20", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/21", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/22", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/23", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/25", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/26", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/27", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/28", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/29", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/30", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/31", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/32", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/33", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/34", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/35", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/36", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/37", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/38", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/39", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/40", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/41", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/42", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/43", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/44", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/45", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/46", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/47", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "FastEthernet0/48", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "Catalyst 2960&#43;48TC-L": {
         Manufacturer: "Cisco",
         Model: "Catalyst 2960&#43;48TC-L",
@@ -12371,7 +12415,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -12495,67 +12539,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
             { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
-        },
-    },
-    "Catalyst 2960-24-S": {
-        Manufacturer: "Cisco",
-        Model: "Catalyst 2960-24-S",
-        Slug: "cisco-ws-c2960-24-s",
-        UHeight: 1,
-        PartNumber: "WS-C2960-24-S",
-        IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 3.6,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-            { Name: "PSU0", Label: "", Type: "iec-60320-c14", MaximumDraw: 22, AllocatedDraw: 0 },
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
-            { Name: "FastEthernet0/1", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/2", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/3", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/4", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/5", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/6", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/7", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/8", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/9", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/10", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/11", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/12", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/13", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/14", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/15", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/16", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/17", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/18", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/19", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/20", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/21", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/22", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/23", Label: "", Type: "100base-tx", MgmtOnly: false },
-            { Name: "FastEthernet0/24", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
     "Catalyst 2960-24LC-S": {
@@ -12817,11 +12800,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C2960-24TC-S",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -12880,11 +12863,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C2960-24TT-L",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -13429,11 +13412,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C2960CG-8TC-L",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.35,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -13930,7 +13913,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.77,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -17723,7 +17706,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -17811,7 +17794,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -21578,11 +21561,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C3750E-24TD",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "side-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.26,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -22391,7 +22374,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.8,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -22496,7 +22479,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -25600,11 +25583,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 14,
         PartNumber: "WS-C6509-E",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "left-to-right",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 27,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -32797,7 +32780,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 25.36,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -32805,10 +32788,6 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PS-1", Label: "", Type: "iec-60320-c16", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS-2", Label: "", Type: "iec-60320-c16", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS-3", Label: "", Type: "iec-60320-c16", MaximumDraw: 2000, AllocatedDraw: 0 },
-            { Name: "PS-4", Label: "", Type: "iec-60320-c16", MaximumDraw: 2000, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -32823,6 +32802,63 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Slot 4", Label: "", Position: "4" },
             { Name: "Slot 5", Label: "", Position: "5" },
             { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "PS-2", Label: "", Position: "2" },
+            { Name: "PS-3", Label: "", Position: "3" },
+            { Name: "PS-4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "Catalyst 9610R": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 9610R",
+        Slug: "cisco-c9610r",
+        UHeight: 18,
+        PartNumber: "C9610R",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 83.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot 1", Label: "", Position: "1" },
+            { Name: "Slot 2", Label: "", Position: "2" },
+            { Name: "Slot 3", Label: "", Position: "3" },
+            { Name: "Slot 4", Label: "", Position: "4" },
+            { Name: "Slot 5", Label: "", Position: "5" },
+            { Name: "Slot 6", Label: "", Position: "6" },
+            { Name: "Slot 7", Label: "", Position: "7" },
+            { Name: "Slot 8", Label: "", Position: "8" },
+            { Name: "Slot 9", Label: "", Position: "9" },
+            { Name: "Slot 10", Label: "", Position: "10" },
+            { Name: "PS-1", Label: "", Position: "1" },
+            { Name: "PS-2", Label: "", Position: "2" },
+            { Name: "PS-3", Label: "", Position: "3" },
+            { Name: "PS-4", Label: "", Position: "4" },
+            { Name: "PS-5", Label: "", Position: "5" },
+            { Name: "PS-6", Label: "", Position: "6" },
+            { Name: "PS-7", Label: "", Position: "7" },
+            { Name: "PS-8", Label: "", Position: "8" },
         },
 			  DeviceBays: []DeviceBay{
         },
@@ -40055,7 +40091,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.08,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40138,7 +40174,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 13.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40180,7 +40216,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 10.4,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40218,11 +40254,11 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 3,
         PartNumber: "ISR3845/K9",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 15.9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -40251,6 +40287,47 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ISR3925": {
+        Manufacturer: "Cisco",
+        Model: "ISR3925",
+        Slug: "cisco-isr3925",
+        UHeight: 3,
+        PartNumber: "ISR3925",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 17.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con 0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS-1", Label: "", Type: "iec-60320-c14", MaximumDraw: 420, AllocatedDraw: 100 },
+            { Name: "PS-2", Label: "", Type: "iec-60320-c14", MaximumDraw: 420, AllocatedDraw: 100 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "ISR3945": {
@@ -40350,7 +40427,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 13.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -59487,7 +59564,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -61027,7 +61104,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.1,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

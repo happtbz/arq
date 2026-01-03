@@ -187,6 +187,53 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
             { Name: "Ethernet1/0/28", Label: "28", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "S2982G-8T": {
+        Manufacturer: "SNR",
+        Model: "S2982G-8T",
+        Slug: "snr-s2982g-8t",
+        UHeight: 1,
+        PartNumber: "S2982G-8T",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.64,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "power AC", Label: "", Type: "iec-60320-c14", MaximumDraw: 22, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/0/9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Ethernet1/0/10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "S2985G-8T-POE": {
         Manufacturer: "SNR",
         Model: "S2985G-8T-POE",
@@ -1414,7 +1461,7 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 9,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1626,6 +1673,43 @@ var DeviceTypesMapsnr = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "erd-2s": {
+        Manufacturer: "SNR",
+        Model: "erd-2s",
+        Slug: "snr-erd-2s",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR", Label: "", Type: "hardwired", MaximumDraw: 15, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Eth", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
     "erd-4s": {

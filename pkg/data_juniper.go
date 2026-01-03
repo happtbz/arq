@@ -1619,6 +1619,47 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "AP47": {
+        Manufacturer: "Juniper",
+        Model: "AP47",
+        Slug: "juniper-ap47",
+        UHeight: 0,
+        PartNumber: "AP47-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "10gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "EX2200-24P-4G": {
         Manufacturer: "Juniper",
         Model: "EX2200-24P-4G",

@@ -220,7 +220,7 @@ var DeviceTypesMapbrocade = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 4.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -282,7 +282,7 @@ var DeviceTypesMapbrocade = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 7.07,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -335,6 +335,8 @@ var DeviceTypesMapbrocade = map[string]*DeviceData{
             { Name: "FC port 0/24", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
             { Name: "FC port 0/25", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
             { Name: "FC port 0/26", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/27", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
+            { Name: "FC port 0/28", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
             { Name: "FC port 0/29", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
             { Name: "FC port 0/30", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },
             { Name: "FC port 0/31", Label: "", Type: "32gfc-sfp28", MgmtOnly: false },

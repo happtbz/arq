@@ -991,7 +991,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 5.6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2065,7 +2065,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2113,7 +2113,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -2158,7 +2158,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4757,7 +4757,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.23,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -4847,7 +4847,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 3.23,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -5800,7 +5800,7 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 9.2,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

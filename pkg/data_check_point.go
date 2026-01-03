@@ -1772,6 +1772,57 @@ var DeviceTypesMapcheck_point = map[string]*DeviceData{
             { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "SG5600": {
+        Manufacturer: "Check Point",
+        Model: "SG5600",
+        Slug: "check-point-sg5600",
+        UHeight: 1,
+        PartNumber: "CPAP-SG5600-NGTP",
+        IsFullDepth: true,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 7.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "ttyS0", Type: "rj-45", Label: "CONSOLE", Poe: false },
+            { Name: "ttyS1", Type: "usb-micro-b", Label: "CONSOLE", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "PSU1" },
+            { Name: "PSU2", Label: "", Position: "PSU2" },
+            { Name: "Line card 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth1", Label: "1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth4", Label: "4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth5", Label: "5", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth6", Label: "6", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth7", Label: "7", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth8", Label: "8", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Sync", Label: "SYNC", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Mgmt", Label: "MGMT", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lom", Label: "LOM", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "SG5800": {
         Manufacturer: "Check Point",
         Model: "SG5800",

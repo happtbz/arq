@@ -496,7 +496,7 @@ var DeviceTypesMapibm = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 25,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{

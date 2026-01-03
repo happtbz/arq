@@ -18447,7 +18447,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -20071,7 +20071,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -20112,7 +20112,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 3,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -22943,7 +22943,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -25532,11 +25532,11 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         UHeight: 4,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 29,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -27155,7 +27155,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "child",
-        Weight: 0,
+        Weight: 1.27,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
