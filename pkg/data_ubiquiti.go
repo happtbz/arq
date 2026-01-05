@@ -4283,6 +4283,45 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "WLAN 4", Label: "6 GHz (WiFi 7)", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
+    "U7 Pro Outdoor": {
+        Manufacturer: "Ubiquiti",
+        Model: "U7 Pro Outdoor",
+        Slug: "ubiquiti-u7-pro-outdoor",
+        UHeight: 0,
+        PartNumber: "U7-Pro-Outdoor",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Wlan 0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wlan 1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wlan 2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
     "U7 Pro XG": {
         Manufacturer: "Ubiquiti",
         Model: "U7 Pro XG",
