@@ -3806,7 +3806,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
             { Name: "1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "3", Label: "", Type: "1000base-t", MgmtOnly: false },
