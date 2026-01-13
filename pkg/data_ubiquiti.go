@@ -2668,6 +2668,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
         },
     },
+    "LiteAP GPS": {
+        Manufacturer: "Ubiquiti",
+        Model: "LiteAP GPS",
+        Slug: "ubiquiti-liteap-gps",
+        UHeight: 0,
+        PartNumber: "LAP-GPS",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 752,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "lan0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
     "LiteBeam 5AC 23": {
         Manufacturer: "Ubiquiti",
         Model: "LiteBeam 5AC 23",
