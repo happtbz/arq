@@ -49,6 +49,7 @@ var DeviceTypesMap = map[string]map[string]*DeviceData{
     "Citrix": DeviceTypesMapcitrix,
     "Colable": DeviceTypesMapcolable,
     "Commscope": DeviceTypesMapcommscope,
+    "Complete Connect": DeviceTypesMapcomplete_connect,
     "ConnectCom": DeviceTypesMapconnectcom,
     "Corning": DeviceTypesMapcorning,
     "Corvil": DeviceTypesMapcorvil,

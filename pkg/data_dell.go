@@ -6926,7 +6926,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: true,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
@@ -6953,6 +6953,88 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Riser PCIe slot 3", Label: "3", Position: "PCIe-3" },
             { Name: "power supply unit 1", Label: "1", Position: "PSU-1" },
             { Name: "power supply unit 2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "VxRail E660F": {
+        Manufacturer: "Dell",
+        Model: "VxRail E660F",
+        Slug: "dell-vxrail-e660f",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 21,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Network daughter card PCI", Label: "1", Position: "NDC-1" },
+            { Name: "Riser PCIe slot 1", Label: "1", Position: "PCIe-1" },
+            { Name: "Riser PCIe slot 2", Label: "2", Position: "PCIe-2" },
+            { Name: "Riser PCIe slot 3", Label: "3", Position: "PCIe-3" },
+            { Name: "power supply unit 1", Label: "1", Position: "PSU-1" },
+            { Name: "power supply unit 2", Label: "2", Position: "PSU-2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "VxRail VP-760": {
+        Manufacturer: "Dell",
+        Model: "VxRail VP-760",
+        Slug: "dell-vxrail-vp-760",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 25.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
         },
 			  DeviceBays: []DeviceBay{
         },
