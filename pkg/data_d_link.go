@@ -2389,6 +2389,90 @@ var DeviceTypesMapd_link = map[string]*DeviceData{
             { Name: "Ethernet1/0/54", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
         },
     },
+    "DIS-100G-10S": {
+        Manufacturer: "D-Link",
+        Model: "DIS-100G-10S",
+        Slug: "d-link-dis-100g-10s",
+        UHeight: 0,
+        PartNumber: "DIS-100G-10S",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "48V", Type: "dc-terminal", MaximumDraw: 8, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet9", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet10", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "DIS-M100G-SW": {
+        Manufacturer: "D-Link",
+        Model: "DIS-M100G-SW",
+        Slug: "d-link-dis-m100g-sw",
+        UHeight: 0,
+        PartNumber: "DIS-M100G-SW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.19,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "48V", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+            { Name: "Ethernet", Label: "", Type: "8p8c", RearPort: "Optic", RearPortPosition: 0 },
+        },
+        RearPorts: []RearPort{
+            { Name: "Optic", Label: "", Type: "sc-upc", Positions: 0, Poe: false },
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "DWS-3160-24TC": {
         Manufacturer: "D-Link",
         Model: "DWS-3160-24TC",
