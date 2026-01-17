@@ -1619,6 +1619,88 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },
+    "AP45": {
+        Manufacturer: "Juniper",
+        Model: "AP45",
+        Slug: "juniper-ap45",
+        UHeight: 0,
+        PartNumber: "AP45-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "AP45E": {
+        Manufacturer: "Juniper",
+        Model: "AP45E",
+        Slug: "juniper-ap45e",
+        UHeight: 0,
+        PartNumber: "AP45E-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
     "AP47": {
         Manufacturer: "Juniper",
         Model: "AP47",
@@ -1657,6 +1739,87 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
             { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11be", MgmtOnly: false },
             { Name: "wlan2", Label: "", Type: "ieee802.11be", MgmtOnly: false },
+            { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "AP63": {
+        Manufacturer: "Juniper",
+        Model: "AP63",
+        Slug: "juniper-ap63",
+        UHeight: 0,
+        PartNumber: "AP63-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "other-wireless", MgmtOnly: false },
+        },
+    },
+    "AP64": {
+        Manufacturer: "Juniper",
+        Model: "AP64",
+        Slug: "juniper-ap64",
+        UHeight: 0,
+        PartNumber: "AP64-WW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "wlan2", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
             { Name: "wlan3", Label: "", Type: "other-wireless", MgmtOnly: false },
         },
     },

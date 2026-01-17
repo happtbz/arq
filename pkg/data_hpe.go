@@ -26102,6 +26102,48 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProLiant MicroServer Gen10 Plus": {
+        Manufacturer: "HPE",
+        Model: "ProLiant MicroServer Gen10 Plus",
+        Slug: "hpe-proliant-microserver-gen10-plus",
+        UHeight: 3,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 5.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PCIe1", Label: "", Position: "PCIe1" },
+            { Name: "PCIe2", Label: "", Position: "PCIe2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProLiant MicroServer Gen11": {
         Manufacturer: "HPE",
         Model: "ProLiant MicroServer Gen11",
