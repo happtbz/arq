@@ -3571,6 +3571,44 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "WiFi", Label: "", Type: "ieee802.11g", MgmtOnly: false },
         },
     },
+    "Aironet 1242AG-E": {
+        Manufacturer: "Cisco",
+        Model: "Aironet 1242AG-E",
+        Slug: "cisco-air-lap1242ag-e-k9",
+        UHeight: 0,
+        PartNumber: "AIR-LAP1242AG-E-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WiFi", Label: "", Type: "ieee802.11g", MgmtOnly: false },
+        },
+    },
     "Aironet 1522HZ-A": {
         Manufacturer: "Cisco",
         Model: "Aironet 1522HZ-A",
@@ -3793,6 +3831,45 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "WiFi", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "Aironet 1602E": {
+        Manufacturer: "Cisco",
+        Model: "Aironet 1602E",
+        Slug: "cisco-air-cap1602e-z-k9",
+        UHeight: 0,
+        PartNumber: "AIR-CAP1602E-Z-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Con", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Aironet 1832I-E": {

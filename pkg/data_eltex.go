@@ -1537,6 +1537,45 @@ var DeviceTypesMapeltex = map[string]*DeviceData{
             { Name: "E1-3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "WEP-2L": {
+        Manufacturer: "Eltex",
+        Model: "WEP-2L",
+        Slug: "eltex-wep-2l",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Dot11Radio0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Dot11Radio1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "GigabitEthernet0", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "WEP-30L": {
         Manufacturer: "Eltex",
         Model: "WEP-30L",
