@@ -4758,6 +4758,52 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "Network Port 3", Label: "Network Redundancy Port 3", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "USW-Pro-8-PoE": {
+        Manufacturer: "Ubiquiti",
+        Model: "USW-Pro-8-PoE",
+        Slug: "ubiquiti-usw-pro-8-poe",
+        UHeight: 0,
+        PartNumber: "USW-Pro-8-PoE",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "AC Input", Label: "", Type: "iec-60320-c14", MaximumDraw: 150, AllocatedDraw: 30 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "SFP&#43; 9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "SFP&#43; 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "UniFi AP-PRO": {
         Manufacturer: "Ubiquiti",
         Model: "UniFi AP-PRO",

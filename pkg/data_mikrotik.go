@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapmikrotik = map[string]*DeviceData{
+    "ATLGM": {
+        Manufacturer: "MikroTik",
+        Model: "ATLGM",
+        Slug: "mikrotik-atlgm",
+        UHeight: 0,
+        PartNumber: "ATLGM&amp;RG520F-EU",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ether1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LTE-1", Label: "", Type: "5g", MgmtOnly: false },
+        },
+    },
     "C52iG-5HaxD2HaxD-TC": {
         Manufacturer: "MikroTik",
         Model: "C52iG-5HaxD2HaxD-TC",
@@ -96,7 +133,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "front-to-rear",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -1441,7 +1478,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "CRS309-1G-8S&#43;",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -1635,7 +1672,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "CRS317-1G-16S&#43;",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -1942,7 +1979,7 @@ var DeviceTypesMapmikrotik = map[string]*DeviceData{
         PartNumber: "",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
