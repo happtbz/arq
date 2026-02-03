@@ -26626,6 +26626,43 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "SAS", Label: "", Type: "other", MgmtOnly: false },
         },
     },
+    "StoreEver LTO-5 SAS": {
+        Manufacturer: "HPE",
+        Model: "StoreEver LTO-5 SAS",
+        Slug: "hpe-storeever-lto-5-sas",
+        UHeight: 0,
+        PartNumber: "EH958B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "SAS", Label: "", Type: "other", MgmtOnly: false },
+        },
+    },
     "StoreEver MSL2024": {
         Manufacturer: "HPE",
         Model: "StoreEver MSL2024",

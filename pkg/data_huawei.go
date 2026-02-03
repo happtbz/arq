@@ -347,6 +347,57 @@ var DeviceTypesMaphuawei = map[string]*DeviceData{
             { Name: "GE10/SFP", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "AR6140-S": {
+        Manufacturer: "Huawei",
+        Model: "AR6140-S",
+        Slug: "huawei-ar6140-s",
+        UHeight: 1,
+        PartNumber: "02353BMU",
+        IsFullDepth: true,
+        Airflow: "left-to-right",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.05,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "CONSOLE", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR1", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PWR2", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SIC1", Label: "", Position: "1" },
+            { Name: "SIC2", Label: "", Position: "2" },
+            { Name: "SIC3", Label: "", Position: "3" },
+            { Name: "SIC4", Label: "", Position: "4" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE6", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE7", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "MGMT/GE8", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "AR651W": {
         Manufacturer: "Huawei",
         Model: "AR651W",

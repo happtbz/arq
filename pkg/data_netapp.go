@@ -454,6 +454,52 @@ var DeviceTypesMapnetapp = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "FAS2750-Ctrl": {
+        Manufacturer: "NetApp",
+        Model: "FAS2750-Ctrl",
+        Slug: "netapp-fas2750-ctrl",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "S0", Type: "rj-45", Label: "CONSOLE0", Poe: false },
+            { Name: "S1", Type: "usb-micro-b", Label: "CONSOLE1", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "e0a", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0b", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0c", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0d", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0e", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "e0f", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "mgmt", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "0a", Label: "sas0", Type: "other", MgmtOnly: false },
+            { Name: "0b", Label: "sas1", Type: "other", MgmtOnly: false },
+        },
+    },
     "FAS8200": {
         Manufacturer: "NetApp",
         Model: "FAS8200",

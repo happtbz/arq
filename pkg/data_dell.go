@@ -2696,6 +2696,7 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU-1", Label: "1", Position: "1" },
             { Name: "PSU-2", Label: "2", Position: "2" },
+            { Name: "OCP 3.0", Label: "", Position: "OCP-1" },
             { Name: "NUMA 0 - PCIe slot 1 - LP", Label: "1", Position: "PCIe-1" },
             { Name: "NUMA 0 - PCIe slot 2 - LP", Label: "2", Position: "PCIe-2" },
             { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
@@ -2706,6 +2707,8 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "1GbE 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "1GbE 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "PowerEdge R660xs": {
